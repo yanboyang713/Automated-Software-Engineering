@@ -4,13 +4,7 @@ Student Number: 200495053
 """
 
 from data import DATA
-from num import NUM
-from sym import SYM
-from cols import COLS
-from row import ROW
 import config
-
-import math
 import sys
 
 def parse_args(argv):
@@ -40,7 +34,6 @@ if __name__ == "__main__":
 
     #print(the)
     if (config.the.t == "stats"):
-        print ("la")
         # read CSV
         data = DATA(config.the.f)
 
