@@ -1,20 +1,22 @@
 class NUM:
-    def __init__(self, txt=None, n=0):
-        self.txt = txt if txt is not None else " "
-        self.at = n
+    def __init__(self, id):
+        self.id = id
+        self.title = ""
         self.n = 0
-        self.mu = 0
+        self.sum = 0
 
-    def add(self, x, d=None):
-        if x != "?":
+    def add(self, num):
+        if num != "?":
             self.n += 1
-            d = x - self.mu
-            self.mu += d / self.n
-            self.m2 += d * (x - self.mu)
-            self.lo = min(x, self.lo)
-            self.hi = max(x, self.hi)
+            self.sum += num
 
-    def mean(self):
-        return self.mu
+    def setTitle(self, title):
+        self.title = title
+
+    def getN(self):
+        return self.n
+
+    def getSUM(self):
+        return self.sum
 
 

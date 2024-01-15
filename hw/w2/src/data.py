@@ -15,36 +15,32 @@ def csv(file="-"):
 
 class DATA:
     def __init__(self, src, fun=None):
-        self.rows = []
+        self.rows = ROW()
         self.cols = COLS()
-        self.numOfRows = 0
+        self.readIndex = 0
 
         for row in csv(src):
             self.add(row)
 
     def add(self, row, fun=None):
         # first line
-        if (self.numOfRows == 0):
+        if (self.readIndex== 0):
             self.cols.addTitle(row)
-            self.numOfRows += 1
+            self.readIndex += 1
         else:
             #update cols
             self.cols.add(row)
             # append row to rows
-            self.rows.append(row)
-            self.numOfRows += 1
+            self.rows.add(row)
+            self.readIndex += 1
 
     def means(self, cols=None):
         u = [col.means() for col in (cols or self.cols.all)]
         return ROW(u)
 
     def stats(self, cols='y', fun='mid', ndivs=None):
-        u = {".N": len(self.rows)}
+        u = {".N": self.rows.getNumOfRows()}
         print (u)
-        #print (self.rows)
-        """
-        for col in self.cols[cols]:
-            value = getattr(col, fun)()
-            u[col.txt] = rnd(value, ndivs) if ndivs else value
-        return u
-        """
+        #print (self.cols.getCol(1))
+        self.cols.calMean()
+        print (self.cols.getMean(5))
