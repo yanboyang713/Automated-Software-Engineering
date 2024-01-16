@@ -37,17 +37,35 @@ class DATA:
 
     def stats(self, mode):
       self.cols.calMean()
+      if mode == "min&max":
+        self.setResult("+or-")
+      elif mode == "num":
+        self.setResult("num")
+      elif mode == "sym":
+        self.setResult("SYM")
+      elif mode == "symClass":
+        self.setResult("SYMclass")
+ 
+    # function for test
+    def getResult(self):
+      return self.result
+
+    def setResult(self, mode):
       # Creating an empty dictionary
       data = {}
 
       # Appending data to the dictionary
       data["N"] = self.rows.getNumOfRows()
-      if mode == "min&max":
-        for index in range (self.cols.getColSize()):
-          if self.cols.getNum(index).getMode() == "+or-":
-            #print (self.cols.getTitle(index))
-            #print (self.cols.getMean(index))
-            data[self.cols.getTitle(index)] = self.cols.getMean(index)
+
+      for index in range (self.cols.getColSize()):
+        if self.cols.getNum(index).getMode() == mode:
+          #print (self.cols.getTitle(index))
+          #print (self.cols.getMean(index))
+          data[self.cols.getTitle(index)] = self.cols.getMean(index)
+        if self.cols.getSYM(index).getMode() == mode:
+          #print (self.cols.getTitle(index))
+          #print (self.cols.getMean(index))
+          data[self.cols.getTitle(index)] = self.cols.getMean(index)
 
       # Formatting the dictionary into the requested string format
       self.result = "{."
@@ -55,6 +73,4 @@ class DATA:
       self.result += "}"
       print (self.result)
 
-    # function for test
-    def getResult(self):
-      return self.result
+

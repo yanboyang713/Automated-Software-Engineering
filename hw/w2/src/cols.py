@@ -1,4 +1,5 @@
 from num import NUM
+from sym import SYM
 
 class COLS:
     def __init__(self):
@@ -8,6 +9,7 @@ class COLS:
         self.rowIndex = 0
         self.mean = []
         self.num = []
+        self.sym = []
 
     def add(self, row):
         #print (self.all)
@@ -33,6 +35,15 @@ class COLS:
                     self.num[at].setMode("num")
                     self.num[at].setTitle(self.names[at])
                     self.num[at].add(txt)
+            else:
+                if self.names[at].endswith('!'):
+                    self.sym[at].setMode("SYMclass")
+                    self.sym[at].setTitle(self.names[at])
+                    self.sym[at].add(txt)
+                else:
+                    self.sym[at].setMode("SYM")
+                    self.sym[at].setTitle(self.names[at])
+                    self.sym[at].add(txt)                   
 
             #print (txt)
             self.all[at][self.rowIndex] = txt
@@ -44,18 +55,22 @@ class COLS:
     def getNum(self, index):
         return self.num[index]
 
+    def getSYM(self, index):
+        return self.sym[index]
+
     def addTitle(self, title):
         self.names = title
         self.colSize = len(title)
         #print (self.names)
         #print (self.colSize)
 
-        self.all = [[0 for _ in range(500)] for _ in range(self.colSize)]
+        self.all = [[0 for _ in range(1001)] for _ in range(self.colSize)]
 
         self.mean = [0 for _ in range(self.colSize)]
         #print (self.mean)
         self.num = [NUM(i) for i in range(0, self.colSize)]
         #print (len(self.num))
+        self.sym = [SYM(i) for i in range(0, self.colSize)]
 
     def getTitle(self, index):
         return self.names[index]
@@ -70,6 +85,9 @@ class COLS:
         for i in range(0, self.colSize):
             if self.num[i].getN() != 0:
                 self.mean[i] = self.num[i].getSUM() / self.num[i].getN()
+            if self.sym[i].getN() != 0:
+                self.mean[i] = self.sym[i].getSUM() / self.sym[i].getN()
+                #print (self.mean[i])
 
     def getMean(self, index):
         return round (self.mean[index], 2)
