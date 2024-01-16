@@ -1,0 +1,10 @@
+repos:
+-   repo: local
+    hooks:
+    -   id: hw2
+        name: week 2 homework
+        entry: python3 ./hw/w2/src/gate.py -f ./hw/w2/data/auto93.csv -t all
+        language: system
+        always_run: true
+        pass_filenames: false
+

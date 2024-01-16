@@ -34,13 +34,22 @@ class DATA:
             self.rows.add(row)
             self.readIndex += 1
 
-    def means(self, cols=None):
-        u = [col.means() for col in (cols or self.cols.all)]
-        return ROW(u)
+    def stats(self, mode):
+      self.cols.calMean()
+      # Creating an empty dictionary
+      data = {}
 
-    def stats(self, cols='y', fun='mid', ndivs=None):
-        u = {".N": self.rows.getNumOfRows()}
-        print (u)
-        #print (self.cols.getCol(1))
-        self.cols.calMean()
-        print (self.cols.getMean(5))
+      # Appending data to the dictionary
+      data["N"] = self.rows.getNumOfRows()
+      if mode == "min&max":
+        for index in range (self.cols.getColSize()):
+          if self.cols.getNum(index).getMode() == "+or-":
+            #print (self.cols.getTitle(index))
+            #print (self.cols.getMean(index))
+            data[self.cols.getTitle(index)] = self.cols.getMean(index)
+
+      # Formatting the dictionary into the requested string format
+      formatted_string = "{."
+      formatted_string += ", ".join(f"{key}: {value}" for key, value in data.items())
+      formatted_string += "}"
+      print (formatted_string)

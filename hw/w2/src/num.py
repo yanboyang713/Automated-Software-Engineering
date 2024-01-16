@@ -2,6 +2,7 @@ class NUM:
     def __init__(self, id):
         self.id = id
         self.title = ""
+        self.mode = ""
         self.n = 0
         self.sum = 0
 
@@ -18,5 +19,11 @@ class NUM:
 
     def getSUM(self):
         return self.sum
+
+    def setMode(self, mode):
+        self.mode = mode
+
+    def getMode(self):
+        return self.mode
 
 

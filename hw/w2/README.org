@@ -1,0 +1,11 @@
+* Base Info
+Student Name: Boyang Yan
+Student Number: 200495053
+
+* pre-commit
+** Install
+#+begin_src bash
+  paru -S pre-commit
+#+end_src
+** Create a Pre-commit Configuration File
+In the root of repository, create a .pre-commit-config.yaml file.

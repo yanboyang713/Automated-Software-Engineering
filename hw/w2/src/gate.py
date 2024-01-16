@@ -4,6 +4,7 @@ Student Number: 200495053
 """
 
 from data import DATA
+from tests import TEST
 import config
 import sys
 
@@ -36,9 +37,11 @@ if __name__ == "__main__":
     if (config.the.t == "stats"):
         # read CSV
         data = DATA(config.the.f)
-
-        # Calling a method of the class
-        data.stats()
+        # do stats
+        data.stats(config.the.m)
+    elif (config.the.t == "all"):
+        TEST.test_example()
+        print("All tests passed!")
 
 
 

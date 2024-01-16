@@ -12,8 +12,6 @@ class COLS:
     def add(self, row):
         #print (self.all)
         for at, txt in enumerate(row):
-            self.num[at].setTitle(self.names[at])
-            self.num[at].add(txt)
             #print (at)
             #print (self.names[at])
             # Names starting with uppercase are numeries; e.g. Volume
@@ -22,6 +20,20 @@ class COLS:
             # Numeric names ending with - or + are goals to be minimized or maximized
             # Symolic names ending with ! are classes to be recognized; e.g. happy!
 
+            if self.names[at][0].isupper():
+                if self.names[at].endswith('X'):
+                    self.num[at].setMode("ignored")
+                    self.num[at].setTitle(self.names[at])
+                    self.num[at].add(txt)
+                elif self.names[at][-1] in ['-', '+']:
+                    self.num[at].setMode("+or-")
+                    self.num[at].setTitle(self.names[at])
+                    self.num[at].add(txt)
+                else:
+                    self.num[at].setMode("num")
+                    self.num[at].setTitle(self.names[at])
+                    self.num[at].add(txt)
+
             #print (txt)
             self.all[at][self.rowIndex] = txt
 
@@ -29,6 +41,8 @@ class COLS:
         #print (self.all[at])
         self.rowIndex += 1
 
+    def getNum(self, index):
+        return self.num[index]
 
     def addTitle(self, title):
         self.names = title
@@ -43,13 +57,20 @@ class COLS:
         self.num = [NUM(i) for i in range(0, self.colSize)]
         #print (len(self.num))
 
+    def getTitle(self, index):
+        return self.names[index]
+
     def getCol(self, index):
         return self.all[index]
 
+    def getColSize(self):
+        return self.colSize
+
     def calMean(self):
         for i in range(0, self.colSize):
-            self.mean[i] = self.num[i].getSUM() / self.num[i].getN()
+            if self.num[i].getN() != 0:
+                self.mean[i] = self.num[i].getSUM() / self.num[i].getN()
 
     def getMean(self, index):
-        return self.mean[index]
+        return round (self.mean[index], 2)
         
