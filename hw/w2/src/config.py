@@ -4,7 +4,7 @@ USAGE:
 
 OPTIONS:
   -f --file     csv data file name              = ../data/auto93.csv
-  -h --help     show help                       = false
+  -h --help     show help                       = False
   -s --seed     random number seed              = 31210
   -t --todo     start up action                 = help
   -m --modes    choice modes num, sym, min&max  = min&max

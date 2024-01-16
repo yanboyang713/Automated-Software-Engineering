@@ -18,6 +18,7 @@ class DATA:
         self.rows = ROW()
         self.cols = COLS()
         self.readIndex = 0
+        self.result = ""
 
         for row in csv(src):
             self.add(row)
@@ -49,7 +50,11 @@ class DATA:
             data[self.cols.getTitle(index)] = self.cols.getMean(index)
 
       # Formatting the dictionary into the requested string format
-      formatted_string = "{."
-      formatted_string += ", ".join(f"{key}: {value}" for key, value in data.items())
-      formatted_string += "}"
-      print (formatted_string)
+      self.result = "{."
+      self.result += ", ".join(f"{key}: {value}" for key, value in data.items())
+      self.result += "}"
+      print (self.result)
+
+    # function for test
+    def getResult(self):
+      return self.result
