@@ -12,6 +12,7 @@ class COLS:
         self.num = []
         self.sym = []
         self.dataSummary = []
+        self.numberSummary = []
         self.rows = ROW()
 
     def add(self, row):
@@ -83,10 +84,10 @@ class COLS:
         #print (len(self.sym))
         
     def classify(self, tempRow, targetCol, classMembers, classCol):
-        print ("row: ", tempRow)
-        print ("targetCol: ",  targetCol)
-        print ("classMembers: ", classMembers)
-        print ("classCol: ", classCol)
+        #print ("row: ", tempRow)
+        #print ("targetCol: ",  targetCol)
+        #print ("classMembers: ", classMembers)
+        #print ("classCol: ", classCol)
         for classIndex in range(0, len(classMembers)):
             #print (tempRow[classCol])
             if (tempRow[classCol] == classMembers[classIndex]):
@@ -102,6 +103,7 @@ class COLS:
         #print (classMembers)
 
         self.dataSummary = [[-1 for _ in range(self.rowIndex)] for _ in range(self.colSize * numOfClass)]
+        self.numberSummary = [[-1 for _ in range(numOfClass)] for _ in range(self.colSize * numOfClass)]
         summaryIndex = 0
         for colIndex in range(0, self.colSize):
             if (self.num[colIndex].getMode() == "num"):
@@ -112,13 +114,16 @@ class COLS:
                     classIndex, number = self.classify(tempRow, colIndex, classMembers, classColIndex)
                     #print (classIndex)
                     #print (number)
+                    # (col, row)
                     self.dataSummary[summaryIndex + classIndex][classMembersIndex[classIndex]] = number
                     classMembersIndex[classIndex] += 1
+
+                for index in range(0, numOfClass):
+                    print (self.dataSummary[summaryIndex + index])
                 summaryIndex +=  numOfClass
                 for i in range(numOfClass):
                     classMembersIndex[i] = 0
 
-        print (self.dataSummary[2])
 
 
     def getTitle(self, index):
