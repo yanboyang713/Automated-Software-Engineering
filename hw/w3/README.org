@@ -1,6 +1,9 @@
 * Base Info
 Student Name: Boyang Yan
 Student Number: 200495053
+https://github.com/txt/aa24/blob/main/docs/02bayes.pdf
+https://github.com/txt/aa24/blob/main/docs/hw03.md
+
 * Task1
 #+begin_src console
 yanboyang713@Meta-Scientific-Linux ..tomated-Software-Engineering/hw/w3/src (git)-[main] % python3 gate.py -f ../data/diabetes.csv -t task1
