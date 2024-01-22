@@ -6,7 +6,9 @@ class ROW:
 
     def add(self, row):
         # append row to rows
+        #print ("row all: ", self.all)
         self.all.append(row)
+        #print ("row all: ", self.all)
         self.numOfRows += 1
 
     def getRow(self, index):

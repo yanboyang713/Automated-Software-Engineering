@@ -38,6 +38,12 @@ if __name__ == "__main__":
         data = DATA(config.the.f)
         # do stats
         data.task1()
+
+    if (config.the.t == "task2"):
+        # read CSV
+        data = DATA(config.the.f)
+        # do stats
+        data.task2()
  
     if (config.the.t == "stats"):
         # read CSV

@@ -1,5 +1,6 @@
 from num import NUM
 from sym import SYM
+from row import ROW
 
 class COLS:
     def __init__(self):
@@ -10,9 +11,13 @@ class COLS:
         self.mean = []
         self.num = []
         self.sym = []
+        self.dataSummary = []
+        self.rows = ROW()
 
     def add(self, row):
         #print (self.all)
+        # add rows
+        self.rows.add(row)
         for at, txt in enumerate(row):
             #print (at)
             #print (self.names[at])
@@ -77,6 +82,44 @@ class COLS:
         self.sym = [SYM(i) for i in range(0, self.colSize)]
         #print (len(self.sym))
         
+    def classify(self, tempRow, targetCol, classMembers, classCol):
+        print ("row: ", tempRow)
+        print ("targetCol: ",  targetCol)
+        print ("classMembers: ", classMembers)
+        print ("classCol: ", classCol)
+        for classIndex in range(0, len(classMembers)):
+            #print (tempRow[classCol])
+            if (tempRow[classCol] == classMembers[classIndex]):
+                return classIndex, tempRow[targetCol]
+        return -1, -1
+
+    def makeSummary(self, classColIndex, numOfClass):
+        print (numOfClass)
+        classMembers = self.sym[classColIndex].getClasMembers()
+        classMembersIndex = []
+        for i in range(numOfClass):
+            classMembersIndex.append(0)
+        #print (classMembers)
+
+        self.dataSummary = [[-1 for _ in range(self.rowIndex)] for _ in range(self.colSize * numOfClass)]
+        summaryIndex = 0
+        for colIndex in range(0, self.colSize):
+            if (self.num[colIndex].getMode() == "num"):
+                #print ("num of rows: ", self.rows.getNumOfRows())
+                for rowIndex in range(0, self.rows.getNumOfRows()):
+                    #print ("rowIndex: ", rowIndex )
+                    tempRow = self.rows.getRow(rowIndex)
+                    classIndex, number = self.classify(tempRow, colIndex, classMembers, classColIndex)
+                    #print (classIndex)
+                    #print (number)
+                    self.dataSummary[summaryIndex + classIndex][classMembersIndex[classIndex]] = number
+                    classMembersIndex[classIndex] += 1
+                summaryIndex +=  numOfClass
+                for i in range(numOfClass):
+                    classMembersIndex[i] = 0
+
+        print (self.dataSummary[2])
+
 
     def getTitle(self, index):
         return self.names[index]

@@ -69,6 +69,18 @@ class DATA:
 
             print ("------------------------------")
 
+    def task2(self):
+      for index in range (self.cols.getColSize()):
+        if self.cols.getSYM(index).getMode() == "SYMclass":
+          numOfClass = len(self.cols.getClasMembers(index))
+          print ("Number of Class: ", numOfClass)
+
+          self.cols.makeSummary(index, numOfClass)
+
+          for x in range (numOfClass):
+            className = self.cols.getClasMembers(index)[x]
+            print ("Class Name: ", className)
+
     # function for test
     def getResult(self):
       return self.result
