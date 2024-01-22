@@ -1,0 +1,100 @@
+* Base Info
+Student Name: Boyang Yan
+Student Number: 200495053
+* Task1
+#+begin_src console
+yanboyang713@Meta-Scientific-Linux ..tomated-Software-Engineering/hw/w3/src (git)-[main] % python3 gate.py -f ../data/diabetes.csv -t task1
+Number of Rows in file:  768
+Number of Class:  2
+------------------------------
+Class Name:  positive
+Frequency:  268
+Percentage:  34.90%
+Class Name:  negative
+Frequency:  500
+Percentage:  65.10%
+------------------------------
+#+end_src
+
+#+begin_src console
+yanboyang713@Meta-Scientific-Linux ..tomated-Software-Engineering/hw/w3/src (git)-[main] % python3 gate.py -f ../data/soybean.csv -m "SYMclass" -t task1
+Number of Rows in file:  683
+Number of Class:  19
+------------------------------
+Class Name:  diaporthe-stem-canker
+Frequency:  20
+Percentage:  2.93%
+------------------------------
+Class Name:  charcoal-rot
+Frequency:  20
+Percentage:  2.93%
+------------------------------
+Class Name:  rhizoctonia-root-rot
+Frequency:  20
+Percentage:  2.93%
+------------------------------
+Class Name:  phytophthora-rot
+Frequency:  88
+Percentage:  12.88%
+------------------------------
+Class Name:  brown-stem-rot
+Frequency:  44
+Percentage:  6.44%
+------------------------------
+Class Name:  powdery-mildew
+Frequency:  20
+Percentage:  2.93%
+------------------------------
+Class Name:  downy-mildew
+Frequency:  20
+Percentage:  2.93%
+------------------------------
+Class Name:  brown-spot
+Frequency:  92
+Percentage:  13.47%
+------------------------------
+Class Name:  bacterial-blight
+Frequency:  20
+Percentage:  2.93%
+------------------------------
+Class Name:  bacterial-pustule
+Frequency:  20
+Percentage:  2.93%
+------------------------------
+Class Name:  purple-seed-stain
+Frequency:  20
+Percentage:  2.93%
+------------------------------
+Class Name:  anthracnose
+Frequency:  44
+Percentage:  6.44%
+------------------------------
+Class Name:  phyllosticta-leaf-spot
+Frequency:  20
+Percentage:  2.93%
+------------------------------
+Class Name:  alternarialeaf-spot
+Frequency:  91
+Percentage:  13.32%
+------------------------------
+Class Name:  frog-eye-leaf-spot
+Frequency:  91
+Percentage:  13.32%
+------------------------------
+Class Name:  diaporthe-pod-&-stem-blight
+Frequency:  15
+Percentage:  2.20%
+------------------------------
+Class Name:  cyst-nematode
+Frequency:  14
+Percentage:  2.05%
+------------------------------
+Class Name:  2-4-d-injury
+Frequency:  16
+Percentage:  2.34%
+------------------------------
+Class Name:  herbicide-injury
+Frequency:  8
+Percentage:  1.17%
+------------------------------
+#+end_src
