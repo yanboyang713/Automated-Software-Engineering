@@ -32,12 +32,11 @@ class DATA:
             self.rows.append(self.cols.add(row))
 
     def stats(self, cols="y", func="mid", ndivs=2):
-        result = {}  # a dictionary to be returned
+        result = {}
         result [".N"] = len(self.rows) - 1
         if cols == "y":
             if func == "mid":
                 for col in self.cols.getY():
-                    #  Remember, col here is either a NUM or SYM object
                     result [col.txt] = round(col.mid(), ndivs)
             elif func == "div":
                 for col in self.cols.getY():
@@ -45,7 +44,6 @@ class DATA:
         elif cols == "x":
             if func == "mid":
                 for col in self.cols.getX():
-                    #  Remember, col here is either a NUM or SYM object
                     result [col.txt] = round(col.mid(), ndivs)
             elif func == "div":
                 for col in self.cols.getX():
@@ -53,17 +51,14 @@ class DATA:
         elif cols == "all":
             if func == "mid":
                 for col in self.cols.getAll():
-                    #  Remember, col here is either a NUM or SYM object
                     result [col.txt] = round(col.mid(), ndivs)
             elif func == "div":
                 for col in self.cols.getAll():
                     result [col.txt] = round(col.div(), ndivs)
         else:
-            #  This is our strange scenario where the str input in lets say an individual column
             if func == "mid":
                 for col in self.cols.getAll():
                     if col.txt in cols:
-                        #  Remember, col here is either a NUM or SYM object
                         result [col.txt] = round(col.mid(), ndivs)
             elif func == "div":
                 for col in self.cols.getAll():
