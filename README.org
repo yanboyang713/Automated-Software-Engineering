@@ -1,0 +1,50 @@
+* Base Info
+Student Name: Boyang Yan
+Student Number: 200495053
+
+* Week 2
+#+begin_src bash
+python3 gate.py -f ../data/auto93.csv -t stats
+#+end_src
+* Week 3
+** Task 1
+#+begin_src bash
+python3 gate.py -f ../data/diabetes.csv -t week3Task1 > ../hw/w3/task1Diabetes.out
+#+end_src
+#+begin_src bash
+  python3 gate.py -f ../data/soybean.csv -t week3Task1 > ../hw/w3/task1Soybean.out
+#+end_src
+** Task 2
+DONE
+** Task 3
+#+begin_src bash
+python3 gate.py -f ../data/soybean.csv -t week3Task3 > ../hw/w3/task3.out
+#+end_src
+** Task 4
+#+begin_src bash
+python3 gate.py -f ../data/soybean.csv -t week3Task4 > ../hw/w3/task4.out
+#+end_src
+
+* Pre-commit
+** install
+#+begin_src bash
+  paru -S pre-commit
+#+end_src
+** Create a Pre-commit Configuration File
+In the root of your repository, create a .pre-commit-config.yaml file
+#+begin_src yaml
+repos:
+-   repo: local
+    hooks:
+    -   id: hw
+        name: homework
+        entry: python3 ./src/gate.py -f ./data/diabetes.csv -t all
+        language: system
+        always_run: true
+        pass_filenames: false
+#+end_src
+** Install the Pre-commit Hook
+#+begin_src bash
+pre-commit install
+#+end_src
+
