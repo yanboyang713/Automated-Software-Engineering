@@ -4,25 +4,25 @@ Student Number: 200495053
 
 * Week 2
 #+begin_src bash
-python3 gate.py -f ../data/auto93.csv -t stats
+  python3 ./src/gate.py -f ./data/auto93.csv -t stats
 #+end_src
 * Week 3
 ** Task 1
 #+begin_src bash
-python3 gate.py -f ../data/diabetes.csv -t week3Task1 > ../hw/w3/task1Diabetes.out
+  python3 ./src/gate.py -f ./data/diabetes.csv -t week3Task1 > ./hw/w3/task1Diabetes.out
 #+end_src
 #+begin_src bash
-  python3 gate.py -f ../data/soybean.csv -t week3Task1 > ../hw/w3/task1Soybean.out
+  python3 ./src/gate.py -f ./data/soybean.csv -t week3Task1 > ./hw/w3/task1Soybean.out
 #+end_src
 ** Task 2
 DONE
 ** Task 3
 #+begin_src bash
-python3 gate.py -f ../data/soybean.csv -t week3Task3 > ../hw/w3/task3.out
+  python3 ./src/gate.py -f ./data/soybean.csv -t week3Task3 > ./hw/w3/task3.out
 #+end_src
 ** Task 4
 #+begin_src bash
-python3 gate.py -f ../data/soybean.csv -t week3Task4 > ../hw/w3/task4.out
+  python3 ./src/gate.py -f ./data/soybean.csv -t week3Task4 > ./hw/w3/task4.out
 #+end_src
 
 * Pre-commit

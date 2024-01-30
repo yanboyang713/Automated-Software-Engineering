@@ -30,7 +30,8 @@ def main(conf, helpDoc):
 
     test = TEST()
     error = False if test.run(conf.todo) else True
-    exit(error)
+    #exit(error)
+    return error
 
 if __name__ == "__main__":
     conf = util.settings(__doc__)

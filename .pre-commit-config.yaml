@@ -3,8 +3,8 @@ repos:
     hooks:
     -   id: hw
         name: homework
-        entry: python3 --version
-        #entry: python3 ./src/gate.py -f ./data/diabetes.csv -t all
+        #entry: python3 --version
+        entry: python3 ./src/gate.py -f ./data/diabetes.csv -t all
         language: system
         always_run: true
         pass_filenames: false

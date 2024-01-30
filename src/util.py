@@ -9,6 +9,7 @@ import sys
 import random
 import math
 import fileinput
+import os
 
 def coerce(val):
     try:
@@ -63,6 +64,20 @@ def o(x):
         return x.__class__.__name__ +"{"+ (" ".join([f"{k}:{v}" for k,v in sorted(x.items()) if k[0]!="_"]))+"}"
     else:
         return x.__class__.__name__ +"{"+ (" ".join([f"{k}:{v}" for k,v in sorted(vars(x).items()) if k[0]!="_"]))+"}"
+
+def getAbspath(path):
+    #print (path)
+    # Get the absolute path of the current working directory
+    cwd = os.getcwd()
+
+    # Get the absolute path of the related directory
+    related_dir = os.path.join(cwd, path)
+
+    # Print the absolute path of the related directory
+    #print(related_dir)
+
+    #print (absolute_path)
+    return related_dir
 
 # handle dictionary items as object attributes
 class SLOTS(dict): 

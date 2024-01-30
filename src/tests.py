@@ -28,14 +28,17 @@ class TEST:
             self.week3Task4()
 
     def stats(self):
-        stat = DATA("../data/auto93.csv").stats()
+        # To get the absolute path
+        absolute_path = util.getAbspath("data/auto93.csv")
+        stat = DATA(absolute_path).stats()
         output = util.o(stat)
         print(output)
         assert output == "dict{.N:397 Acc+:15.57 Lbs-:2970.42 Mpg+:23.84}"
 
     def week3Task3(self):
         record = SLOTS({"acc": 0, "datas": {}, "tries": 0, "n": 0})
-        DATA("../data/diabetes.csv",lambda data, t: learn(data,t,record))
+        absolute_path = util.getAbspath("data/diabetes.csv")
+        DATA(absolute_path,lambda data, t: learn(data,t,record))
         accuracy  = record.acc/(record.tries)
         accuracy *= 100
         print("Accuracy:", f"{accuracy:.2f}%")
@@ -43,6 +46,7 @@ class TEST:
 
     def week3Task1(self):
         record = SLOTS({"acc": 0, "datas": {}, "tries": 0, "n": 0})
+        #print (the.file)
         DATA(the.file,lambda data, t: learn(data,t,record))
         datas = record.datas
         print ("-------------------------------------")
@@ -68,7 +72,10 @@ class TEST:
                 the.k = k
                 the.m = m
                 record = SLOTS({"acc": 0, "datas": {}, "tries": 0, "n": 0})
-                DATA("../data/soybean.csv",lambda data, t: learn(data,t,record))
+
+                absolute_path = util.getAbspath("data/soybean.csv")
+
+                DATA(absolute_path,lambda data, t: learn(data,t,record))
                 accuracy = record.acc / record.tries
                 accuracy *= 100
                 print(f"{accuracy:.2f}%|{k}|{m}")
