@@ -29,6 +29,98 @@ DONE
 #+begin_src bash
   python3 ./src/gate.py -t week4
 #+end_src
+** Q1: does SMO do better than the random baselines (see prints 1,2,4)?
+Yes, better than random baselines.
+
+SMO result
+#+begin_src file
+1985 16.4 30
+#+end_src
+
+top6 Lbs-, Acc+, Mpg+,
+#+begin_src file
+Row 1 1850 13.8 40 
+Row 2 3425 13.2 20 
+Row 3 3988 13 10 
+Row 4 2545 17 20 
+Row 5 3230 20.4 30 
+Row 6 4220 11.1 20
+#+end_src
+top50 Lbs-, Acc+, Mpg+,
+#+begin_src file
+Row 1 1850 13.8 40 
+Row 2 3425 13.2 20 
+Row 3 3988 13 10 
+Row 4 2545 17 20 
+Row 5 3230 20.4 30 
+Row 6 4220 11.1 20 
+Row 7 2125 14.7 40 
+Row 8 4906 12.5 10 
+Row 9 2665 13.9 30 
+Row 10 3439 15.5 20 
+Row 11 2950 19.9 40 
+Row 12 3085 17.6 20 
+Row 13 4422 12.5 10 
+Row 14 4952 11.5 10 
+Row 15 2451 16.5 30 
+Row 16 3399 11 20 
+Row 17 2158 15.5 20 
+Row 18 1925 14 30 
+Row 19 4951 11 10 
+Row 20 4354 9 10 
+Row 21 3563 10 20 
+Row 22 3015 17 40 
+Row 23 3777 12.5 20 
+Row 24 2110 19.2 40 
+Row 25 3070 16.7 20 
+Row 26 3504 12 20 
+Row 27 2288 17 30 
+Row 28 2572 14.9 30 
+Row 29 4440 14 20 
+Row 30 1945 16.8 30 
+Row 31 2790 15.6 30 
+Row 32 3190 24.8 30 
+Row 33 2205 14.5 40 
+Row 34 3651 17.7 20 
+Row 35 2789 15 20 
+Row 36 2945 16.4 30 
+Row 37 4380 12.1 20 
+Row 38 3250 21.8 30 
+Row 39 2202 15.3 30 
+Row 40 2395 16 20 
+Row 41 3535 19.2 20 
+Row 42 2694 15 20 
+Row 43 2634 13 20 
+Row 44 2900 12.6 30 
+Row 45 3880 12.5 20 
+Row 46 1985 16 30 
+Row 47 2671 13.5 30 
+Row 48 2160 14.5 40 
+Row 49 2171 16 30 
+Row 50 1985 16.4 30
+#+end_src
+4. rand
+#+begin_src file
+Lbs-, Acc+, Mpg+, 
+Row 1 2605.0 15.15 25.0 
+#+end_src
+
+** Q2: How many y row evaluations are required for print 3?
+For our auto93 dataset, have 3 depandent columns, as well as 398 rows. So, the number of evaluations is 3 x 398 = 1194.
+
+** Q3: How does SMO do compared to absolute best?
+SMO better than absolute best.
+
+SMO result
+#+begin_src file
+1985 16.4 30
+#+end_src
+
+Most:
+#+begin_src file
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40
+#+end_src
 
 * Pre-commit
 ** install
