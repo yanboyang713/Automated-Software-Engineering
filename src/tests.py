@@ -21,11 +21,41 @@ class TEST:
             self.week3Task3()
         elif (todo == "week3Task4"):
             self.week3Task4()
+        elif (todo == "week4"):
+            self.week4()
         else:
             self.stats()
-            self.week3Task1()
-            self.week3Task3()
-            self.week3Task4()
+            #self.week3Task1()
+            #self.week3Task3()
+            #self.week3Task4()
+            self.week4()
+
+    def week4(self):
+        TestFlag = True
+        # 20 times, run gate()
+        for index in range(20):
+            print ("-----------------------------------------------------")
+            print ("Run Gate at ", index, "times")
+            # load dataset
+            absolute_path = util.getAbspath("data/auto93.csv")
+            data = DATA(absolute_path)
+
+            BUDGET0 = 4   # how may items to initially evaluate
+            print ("initially evaluate: ", BUDGET0)
+            BUDGET = 10   # how may items to subsequently evaluate
+            print ("subsequently evaluate: ", BUDGET)
+            SOME = 0.5    # within (say) 9 evaluated examples, BEST is the top n SOME; e.g. SOME = 0.5, BEST = 3 examples
+            print ("SOME: ", SOME)
+            _stats, _bests = data.gate(BUDGET0, BUDGET, SOME)
+            # Test
+            stat, best = _stats[-1], _bests[-1]
+            #print ("stat: ", stat)
+            #print ("best: ", best)
+            print("week4: ", util.rnd(best.d2h(data)), util.rnd(stat.d2h(data)))
+            if best.d2h(data) > stat.d2h(data):
+                TestFlag = False
+            print ("-----------------------------------------------------")
+        assert TestFlag == True
 
     def stats(self):
         # To get the absolute path

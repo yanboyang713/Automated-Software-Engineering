@@ -25,6 +25,11 @@ DONE
   python3 ./src/gate.py -f ./data/soybean.csv -t week3Task4 > ./hw/w3/task4.out
 #+end_src
 
+* Week 4
+#+begin_src bash
+  python3 ./src/gate.py -t week4
+#+end_src
+
 * Pre-commit
 ** install
 #+begin_src bash

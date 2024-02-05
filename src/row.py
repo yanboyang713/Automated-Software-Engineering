@@ -31,3 +31,12 @@ class ROWS:
                 out = out + (math.log(inc) if inc != 0 else float("-inf"))
         return math.exp(1)**out
 
+
+    # Distance to best values (and lower is better)
+    def d2h(self, data):
+        d, n = 0, 0
+        for col in data.cols.y:
+            n += 1
+            d += abs(col.heaven - col.norm(self.cells[col.at])) ** 2
+        return math.sqrt(d) / math.sqrt(n)
+

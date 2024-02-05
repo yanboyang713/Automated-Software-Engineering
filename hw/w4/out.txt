@@ -1,0 +1,3360 @@
+-----------------------------------------------------
+Run Gate at  0 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 2155 16.4 30 
+Row 2 1613 18 40 
+Row 3 2565 13.6 30 
+Row 4 4360 14.9 20 
+Row 5 2914 16 20 
+Row 6 3282 15 20 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 2155 16.4 30 
+Row 2 1613 18 40 
+Row 3 2565 13.6 30 
+Row 4 4360 14.9 20 
+Row 5 2914 16 20 
+Row 6 3282 15 20 
+Row 7 3221 13.5 20 
+Row 8 3504 12 20 
+Row 9 4457 13.5 10 
+Row 10 2702 13.5 20 
+Row 11 2065 17.8 30 
+Row 12 1845 15.3 30 
+Row 13 1835 17.3 40 
+Row 14 2110 17.9 50 
+Row 15 3445 13.4 20 
+Row 16 3880 12.5 20 
+Row 17 4080 13.7 20 
+Row 18 2164 22.1 20 
+Row 19 3302 15.5 20 
+Row 20 4141 14 20 
+Row 21 2800 14.4 30 
+Row 22 3830 15.2 20 
+Row 23 2230 14.5 30 
+Row 24 2265 18.2 30 
+Row 25 2572 14.9 30 
+Row 26 2575 16.2 30 
+Row 27 2223 16.5 30 
+Row 28 1980 15.3 40 
+Row 29 2000 16 30 
+Row 30 2234 12.5 30 
+Row 31 2542 17 30 
+Row 32 1834 19 30 
+Row 33 3630 17.7 20 
+Row 34 2560 14.2 30 
+Row 35 2188 15.8 30 
+Row 36 3365 15.5 20 
+Row 37 2670 15 30 
+Row 38 2158 15.5 20 
+Row 39 4077 14 10 
+Row 40 4312 8.5 10 
+Row 41 3270 21.9 20 
+Row 42 2950 17.3 30 
+Row 43 1835 20.5 30 
+Row 44 3399 11 20 
+Row 45 3761 9.5 20 
+Row 46 4096 13 10 
+Row 47 4732 18.5 10 
+Row 48 4502 13.5 10 
+Row 49 2855 17.6 20 
+Row 50 3613 16.5 20 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2836.25 15.27 22.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2428.21 16.43 28.18 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2395 18 30 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3511.6 16.92 18.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2567.35 16.48 26.99 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2395 18 30 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3520.83 14.3 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2401.43 16.4 28.33 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2110 17.9 50 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2778.86 14.83 25.71 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.78 16.59 29.4 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2110 17.9 50 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3198.63 15.19 23.75 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2308.54 16.6 29.4 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2110 17.9 50 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3047.67 15.82 23.33 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2305.34 16.61 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2110 17.9 50 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2927.6 15.47 21.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2302.84 16.62 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2110 17.9 50 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3275.36 15.38 23.64 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2302.84 16.62 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2110 17.9 50 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2934.08 15.42 23.33 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2302.92 16.62 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2110 17.9 50 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3249.46 14.65 21.54 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2303.29 16.63 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2110 17.9 50 
+week4:  0.25 0.42
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  1 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 1850 13.8 40 
+Row 2 3425 13.2 20 
+Row 3 3988 13 10 
+Row 4 2545 17 20 
+Row 5 3230 20.4 30 
+Row 6 4220 11.1 20 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 1850 13.8 40 
+Row 2 3425 13.2 20 
+Row 3 3988 13 10 
+Row 4 2545 17 20 
+Row 5 3230 20.4 30 
+Row 6 4220 11.1 20 
+Row 7 2125 14.7 40 
+Row 8 4906 12.5 10 
+Row 9 2665 13.9 30 
+Row 10 3439 15.5 20 
+Row 11 2950 19.9 40 
+Row 12 3085 17.6 20 
+Row 13 4422 12.5 10 
+Row 14 4952 11.5 10 
+Row 15 2451 16.5 30 
+Row 16 3399 11 20 
+Row 17 2158 15.5 20 
+Row 18 1925 14 30 
+Row 19 4951 11 10 
+Row 20 4354 9 10 
+Row 21 3563 10 20 
+Row 22 3015 17 40 
+Row 23 3777 12.5 20 
+Row 24 2110 19.2 40 
+Row 25 3070 16.7 20 
+Row 26 3504 12 20 
+Row 27 2288 17 30 
+Row 28 2572 14.9 30 
+Row 29 4440 14 20 
+Row 30 1945 16.8 30 
+Row 31 2790 15.6 30 
+Row 32 3190 24.8 30 
+Row 33 2205 14.5 40 
+Row 34 3651 17.7 20 
+Row 35 2789 15 20 
+Row 36 2945 16.4 30 
+Row 37 4380 12.1 20 
+Row 38 3250 21.8 30 
+Row 39 2202 15.3 30 
+Row 40 2395 16 20 
+Row 41 3535 19.2 20 
+Row 42 2694 15 20 
+Row 43 2634 13 20 
+Row 44 2900 12.6 30 
+Row 45 3880 12.5 20 
+Row 46 1985 16 30 
+Row 47 2671 13.5 30 
+Row 48 2160 14.5 40 
+Row 49 2171 16 30 
+Row 50 1985 16.4 30 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2605.0 15.15 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2308.5 16.63 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1985 16.4 30 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2683.2 17.76 24.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2313.9 16.59 29.42 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1985 16.4 30 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2829.67 14.35 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2313.9 16.59 29.42 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1985 16.4 30 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2994.43 15.4 25.71 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2313.9 16.59 29.42 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1985 16.4 30 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2693.75 14.4 28.75 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2308.77 16.62 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2255 17.7 30 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3414.56 13.46 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.51 16.63 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2255 17.7 30 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2887.5 15.98 27.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.51 16.63 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2255 17.7 30 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3152.55 16.48 24.55 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.51 16.63 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2255 17.7 30 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2820.08 15.33 22.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.51 16.63 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2255 17.7 30 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3151.38 15.56 23.08 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.78 16.6 29.6 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2255 17.7 30 
+week4:  0.39 0.42
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  2 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 2202 15.3 30 
+Row 2 3777 12.5 20 
+Row 3 3672 11.5 10 
+Row 4 2395 18 30 
+Row 5 4215 13 20 
+Row 6 3850 8.5 20 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 2202 15.3 30 
+Row 2 3777 12.5 20 
+Row 3 3672 11.5 10 
+Row 4 2395 18 30 
+Row 5 4215 13 20 
+Row 6 3850 8.5 20 
+Row 7 2051 17 30 
+Row 8 2900 12.6 30 
+Row 9 2472 14 20 
+Row 10 1990 17 30 
+Row 11 2379 16.5 20 
+Row 12 2108 15.5 20 
+Row 13 2957 17 20 
+Row 14 2205 14.5 40 
+Row 15 2223 16.5 30 
+Row 16 3230 20.4 30 
+Row 17 1850 13.8 40 
+Row 18 2230 14.5 30 
+Row 19 4141 14 20 
+Row 20 4906 12.5 10 
+Row 21 2950 17.3 30 
+Row 22 2155 16.5 30 
+Row 23 1845 15.3 30 
+Row 24 2065 14.5 30 
+Row 25 4140 13.7 20 
+Row 26 2648 15 20 
+Row 27 2045 16.2 30 
+Row 28 2930 13.8 20 
+Row 29 2890 17.3 20 
+Row 30 2190 14.2 30 
+Row 31 2434 15 40 
+Row 32 4042 14.5 10 
+Row 33 3870 15 10 
+Row 34 2144 14.7 40 
+Row 35 2310 18.5 20 
+Row 36 3651 17.7 20 
+Row 37 4325 12.2 20 
+Row 38 3381 18.7 20 
+Row 39 2130 14.5 30 
+Row 40 2145 18 30 
+Row 41 2228 14 30 
+Row 42 2189 18 30 
+Row 43 1985 19.4 30 
+Row 44 1940 14.5 30 
+Row 45 3892 12.5 20 
+Row 46 4335 14.5 20 
+Row 47 2833 15.5 20 
+Row 48 2875 17 20 
+Row 49 3302 15.5 20 
+Row 50 4312 8.5 10 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2759.0 17.58 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.23 16.6 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1945 16.8 30 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2603.4 17.38 22.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2573.67 16.5 26.92 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1945 16.8 30 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2489.17 18.0 31.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.96 16.58 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1945 16.8 30 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3370.71 14.06 17.14 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.75 16.58 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1945 16.8 30 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2400.13 17.73 28.75 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.75 16.58 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1945 16.8 30 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2969.56 14.52 21.11 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.97 16.58 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1945 16.8 30 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2746.3 16.46 24.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.97 16.58 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1945 16.8 30 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3003.45 15.5 23.64 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.97 16.58 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1945 16.8 30 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3128.5 16.88 23.33 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2310.2 16.58 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2265 18.2 30 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2643.54 15.34 25.38 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2310.2 16.58 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2265 18.2 30 
+week4:  0.38 0.42
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  3 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 2665 13.9 30 
+Row 2 2620 14.4 30 
+Row 3 3672 11.5 10 
+Row 4 4382 13.5 10 
+Row 5 2950 17.3 30 
+Row 6 3880 12.5 20 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 2665 13.9 30 
+Row 2 2620 14.4 30 
+Row 3 3672 11.5 10 
+Row 4 4382 13.5 10 
+Row 5 2950 17.3 30 
+Row 6 3880 12.5 20 
+Row 7 2671 13.5 30 
+Row 8 4080 13.7 20 
+Row 9 2120 15.5 30 
+Row 10 2434 15 40 
+Row 11 2585 14.5 30 
+Row 12 3264 16 20 
+Row 13 3365 15.5 20 
+Row 14 2335 23.7 40 
+Row 15 3139 14.5 20 
+Row 16 5140 12 10 
+Row 17 2278 15.5 20 
+Row 18 4732 18.5 10 
+Row 19 2556 13.2 30 
+Row 20 2265 18.2 30 
+Row 21 2865 16.4 20 
+Row 22 3530 20.1 30 
+Row 23 2901 16 20 
+Row 24 3282 15 20 
+Row 25 1835 20.5 30 
+Row 26 2592 18.5 20 
+Row 27 2046 19 30 
+Row 28 3613 16.5 20 
+Row 29 2634 13 20 
+Row 30 2155 16.5 30 
+Row 31 2189 18 30 
+Row 32 2945 16 20 
+Row 33 2582 14 20 
+Row 34 1925 14 30 
+Row 35 2125 14.5 30 
+Row 36 2295 11.6 30 
+Row 37 2130 14.5 30 
+Row 38 4042 14.5 10 
+Row 39 2051 17 30 
+Row 40 2930 13.8 20 
+Row 41 4699 14.5 10 
+Row 42 2300 14.5 30 
+Row 43 2003 19 30 
+Row 44 3425 16.9 20 
+Row 45 3664 11 10 
+Row 46 3777 12.5 20 
+Row 47 4498 14.5 20 
+Row 48 3525 19 20 
+Row 49 3535 19.2 20 
+Row 50 2158 15.5 20 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2472.5 18.7 32.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2572.34 16.48 26.94 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2145 18 30 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3477.6 15.62 18.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2574.34 16.48 26.93 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2145 18 30 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3082.83 16.07 21.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.99 16.6 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2019 16.4 40 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2631.86 15.63 25.71 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2314.29 16.48 30.87 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2019 16.4 40 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3076.5 15.99 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2314.38 16.5 30.87 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2019 16.4 40 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3020.78 15.16 23.33 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2313.3 16.62 29.49 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2019 16.4 40 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2959.0 15.57 23.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2315.91 16.63 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2019 16.4 40 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2987.36 16.26 21.82 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2315.91 16.63 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2019 16.4 40 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2875.08 15.84 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2316.86 16.59 29.39 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2884.85 16.68 24.62 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2318.38 16.58 29.38 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+week4:  0.17 0.43
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  4 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 2572 14.9 30 
+Row 2 2800 14.4 30 
+Row 3 2635 16.4 30 
+Row 4 4077 14 10 
+Row 5 3570 12.8 20 
+Row 6 2380 20.7 30 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 2572 14.9 30 
+Row 2 2800 14.4 30 
+Row 3 2635 16.4 30 
+Row 4 4077 14 10 
+Row 5 3570 12.8 20 
+Row 6 2380 20.7 30 
+Row 7 2625 18.6 30 
+Row 8 2155 16.4 30 
+Row 9 2300 14.5 30 
+Row 10 3880 12.5 20 
+Row 11 3664 11 10 
+Row 12 2670 16 30 
+Row 13 1963 15.5 30 
+Row 14 4699 14.5 10 
+Row 15 2587 16 20 
+Row 16 3821 11 10 
+Row 17 3449 10.5 20 
+Row 18 3425 16.9 20 
+Row 19 4257 15.5 10 
+Row 20 4054 14.3 20 
+Row 21 4237 14.5 10 
+Row 22 3735 13.2 20 
+Row 23 1950 19 30 
+Row 24 3190 24.8 30 
+Row 25 2190 14.2 30 
+Row 26 3850 8.5 20 
+Row 27 2045 16.2 30 
+Row 28 2401 19.5 20 
+Row 29 2245 16.9 30 
+Row 30 3830 15.2 20 
+Row 31 2835 14.7 20 
+Row 32 2065 17.8 30 
+Row 33 2500 15.1 40 
+Row 34 2755 15.8 30 
+Row 35 2904 16 20 
+Row 36 3672 11.5 10 
+Row 37 4220 11.1 20 
+Row 38 3102 16.5 20 
+Row 39 2408 19.5 20 
+Row 40 3897 18.5 20 
+Row 41 2865 16.4 20 
+Row 42 2130 24.6 40 
+Row 43 4100 13 10 
+Row 44 2395 16 20 
+Row 45 2110 19.2 40 
+Row 46 1795 17.4 30 
+Row 47 3233 15.4 20 
+Row 48 2464 15.5 30 
+Row 49 2950 19.9 40 
+Row 50 2100 16.5 30 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3252.5 15.23 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.08 16.57 29.57 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1755 16.9 40 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3251.6 16.2 22.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.21 16.61 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1755 16.9 40 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3380.67 15.27 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.03 16.61 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1755 16.9 40 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2294.43 16.3 32.86 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.03 16.61 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1755 16.9 40 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2688.0 16.24 23.75 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.03 16.61 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1755 16.9 40 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3212.11 13.34 21.11 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.94 16.63 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1755 16.9 40 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3015.6 16.08 23.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2313.37 16.64 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1755 16.9 40 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2701.55 16.12 26.36 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2314.35 16.64 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1755 16.9 40 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3281.33 15.64 20.83 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2314.35 16.64 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1755 16.9 40 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2900.0 15.12 24.62 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2314.35 16.64 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1755 16.9 40 
+week4:  0.31 0.42
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  5 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 4141 14 20 
+Row 2 4952 11.5 10 
+Row 3 3039 15 20 
+Row 4 2665 13.9 30 
+Row 5 2230 14.5 30 
+Row 6 3250 21.8 30 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 4141 14 20 
+Row 2 4952 11.5 10 
+Row 3 3039 15 20 
+Row 4 2665 13.9 30 
+Row 5 2230 14.5 30 
+Row 6 3250 21.8 30 
+Row 7 4129 13 10 
+Row 8 2375 17.5 30 
+Row 9 2019 16.4 40 
+Row 10 3102 16.5 20 
+Row 11 2542 17.5 30 
+Row 12 1995 16.2 40 
+Row 13 1834 19 30 
+Row 14 3777 12.5 20 
+Row 15 2310 18.5 20 
+Row 16 3278 18 20 
+Row 17 2130 14.5 30 
+Row 18 4376 15 10 
+Row 19 2155 14.8 30 
+Row 20 1915 14.4 40 
+Row 21 2702 13.5 20 
+Row 22 4060 19 20 
+Row 23 2807 13.5 20 
+Row 24 4464 11.5 10 
+Row 25 2678 16.5 30 
+Row 26 2200 13.2 30 
+Row 27 3425 13.2 20 
+Row 28 2408 19 20 
+Row 29 4278 9.5 20 
+Row 30 1940 14.5 30 
+Row 31 3210 17.2 20 
+Row 32 3940 13.2 10 
+Row 33 3574 21 20 
+Row 34 2720 15.4 30 
+Row 35 2223 16.5 30 
+Row 36 3645 16.2 20 
+Row 37 1945 16.8 30 
+Row 38 2158 15.5 20 
+Row 39 4732 18.5 10 
+Row 40 2228 14 30 
+Row 41 2957 17 20 
+Row 42 3380 15.8 20 
+Row 43 1825 12.2 30 
+Row 44 2350 16.8 30 
+Row 45 1925 14 30 
+Row 46 4098 14 10 
+Row 47 2395 16 20 
+Row 48 2556 13.2 30 
+Row 49 2868 15.5 20 
+Row 50 2979 19.5 20 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3257.0 16.48 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2178.87 17.12 34.67 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1975 19.4 40 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2548.4 16.98 24.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2164.24 16.66 30.14 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1975 19.4 40 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2863.17 15.72 26.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2001.55 17.61 32.36 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1975 19.4 40 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2865.43 17.33 25.71 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2206.98 16.62 30.13 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1975 19.4 40 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3280.0 13.93 21.25 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2206.98 16.62 30.13 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1975 19.4 40 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3218.56 13.88 24.44 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2206.98 16.62 30.13 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1975 19.4 40 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3513.8 14.17 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.52 16.56 29.39 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1975 19.4 40 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3071.45 14.66 21.82 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2314.18 16.56 29.39 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1975 19.4 40 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2912.33 14.53 22.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.11 16.54 29.39 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1975 19.4 40 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2566.46 15.91 26.15 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.11 16.54 29.39 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1975 19.4 40 
+week4:  0.24 0.43
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  6 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 2720 19.4 30 
+Row 2 2160 14.5 40 
+Row 3 1875 16.4 40 
+Row 4 2254 23.5 20 
+Row 5 2401 19.5 20 
+Row 6 1985 21.5 40 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 2720 19.4 30 
+Row 2 2160 14.5 40 
+Row 3 1875 16.4 40 
+Row 4 2254 23.5 20 
+Row 5 2401 19.5 20 
+Row 6 1985 21.5 40 
+Row 7 2904 16 20 
+Row 8 1835 20.5 30 
+Row 9 2375 17.5 30 
+Row 10 3169 12 10 
+Row 11 2379 16.5 20 
+Row 12 3035 20.5 20 
+Row 13 2635 16.4 30 
+Row 14 4082 13 20 
+Row 15 3353 14.5 20 
+Row 16 2740 16 20 
+Row 17 2430 14.5 20 
+Row 18 3329 15.5 20 
+Row 19 4060 19 20 
+Row 20 4295 14.9 20 
+Row 21 2100 16.5 30 
+Row 22 3445 13.4 20 
+Row 23 3415 15.8 20 
+Row 24 2215 14.9 30 
+Row 25 3288 15.5 20 
+Row 26 3012 17.6 20 
+Row 27 2288 17 30 
+Row 28 3761 9.5 20 
+Row 29 2900 12.6 30 
+Row 30 2000 16 30 
+Row 31 3381 18.7 20 
+Row 32 2789 15 20 
+Row 33 1845 15.3 30 
+Row 34 2560 14.2 30 
+Row 35 2164 22.1 20 
+Row 36 1755 16.9 40 
+Row 37 2171 16 30 
+Row 38 2265 15.5 30 
+Row 39 4633 11 10 
+Row 40 1825 18.6 40 
+Row 41 2542 17.5 30 
+Row 42 2905 14.3 20 
+Row 43 1795 17.5 30 
+Row 44 3725 13.4 20 
+Row 45 3278 18 20 
+Row 46 2300 14.5 30 
+Row 47 2582 14 20 
+Row 48 2126 17 30 
+Row 49 4154 13.5 10 
+Row 50 3410 15.8 20 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3164.75 15.9 27.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2947.33 16.9 20.0 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2875 17 20 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2965.2 15.42 24.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 3201.14 16.24 20.99 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2875 17 20 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3931.67 13.17 21.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2810.48 16.42 25.38 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2565 13.6 30 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2702.57 16.11 25.71 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2592.19 16.51 27.99 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2565 13.6 30 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2825.0 15.55 22.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2430.71 16.3 28.69 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2635 16.4 30 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3025.0 15.92 24.44 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2395.86 16.38 28.83 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2635 16.4 30 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2690.2 16.56 24.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2515.36 16.45 28.51 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2635 16.4 30 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2918.73 15.06 22.73 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2389.17 16.38 29.17 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2635 16.4 30 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2543.42 15.33 30.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2303.63 16.63 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2110 19.2 40 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3055.54 15.69 21.54 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2304.41 16.64 29.49 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2110 19.2 40 
+week4:  0.25 0.42
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  7 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 1968 18.8 40 
+Row 2 4257 15.5 10 
+Row 3 4082 13 20 
+Row 4 2124 13.5 20 
+Row 5 4376 15 10 
+Row 6 2950 19.9 40 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 1968 18.8 40 
+Row 2 4257 15.5 10 
+Row 3 4082 13 20 
+Row 4 2124 13.5 20 
+Row 5 4376 15 10 
+Row 6 2950 19.9 40 
+Row 7 4746 12 10 
+Row 8 2220 16.9 30 
+Row 9 3410 15.1 20 
+Row 10 2155 16.4 30 
+Row 11 3445 13.4 20 
+Row 12 2125 17.3 40 
+Row 13 1945 16.8 30 
+Row 14 2288 17 30 
+Row 15 1836 21 30 
+Row 16 2930 15.5 20 
+Row 17 2670 15 30 
+Row 18 3781 17 20 
+Row 19 2130 14.5 30 
+Row 20 2150 14.9 30 
+Row 21 2200 13.2 30 
+Row 22 3730 19 20 
+Row 23 2500 15.1 40 
+Row 24 3155 18.2 20 
+Row 25 1825 18.6 40 
+Row 26 2725 12.6 20 
+Row 27 3535 19.2 20 
+Row 28 1613 18 40 
+Row 29 3907 21 20 
+Row 30 1950 21 30 
+Row 31 2279 19 20 
+Row 32 2020 19.2 30 
+Row 33 2545 17 20 
+Row 34 4055 12 10 
+Row 35 2335 23.7 40 
+Row 36 2265 18.2 30 
+Row 37 1965 15.7 30 
+Row 38 2045 18.5 30 
+Row 39 2979 19.5 20 
+Row 40 3955 13.2 20 
+Row 41 2592 18.5 20 
+Row 42 2950 17.3 30 
+Row 43 3940 13.2 10 
+Row 44 4951 11 10 
+Row 45 1940 14.5 30 
+Row 46 2130 14.5 30 
+Row 47 2855 17.6 20 
+Row 48 4633 11 10 
+Row 49 3570 12.8 20 
+Row 50 4354 9 10 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3117.5 16.4 22.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2305.07 16.62 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1968 18.8 40 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3548.0 13.08 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2303.89 16.61 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1968 18.8 40 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3359.17 14.67 21.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2303.89 16.61 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1968 18.8 40 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2697.43 16.34 28.57 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2304.32 16.61 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1968 18.8 40 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3051.25 13.61 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2304.32 16.61 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1968 18.8 40 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3455.33 15.38 17.78 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2304.52 16.62 29.49 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1968 18.8 40 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3028.7 16.03 21.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2304.52 16.62 29.49 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1968 18.8 40 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2680.45 15.51 26.36 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2304.52 16.62 29.49 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1968 18.8 40 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3214.58 14.3 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2304.52 16.62 29.49 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1968 18.8 40 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2573.62 15.21 26.15 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2305.71 16.61 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1968 18.8 40 
+week4:  0.26 0.42
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  8 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 4215 13 20 
+Row 2 2075 15.9 30 
+Row 3 4746 12 10 
+Row 4 1845 15.3 30 
+Row 5 4140 13.7 20 
+Row 6 4380 12.1 20 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 4215 13 20 
+Row 2 2075 15.9 30 
+Row 3 4746 12 10 
+Row 4 1845 15.3 30 
+Row 5 4140 13.7 20 
+Row 6 4380 12.1 20 
+Row 7 2254 23.5 20 
+Row 8 2914 16 20 
+Row 9 2205 14.5 40 
+Row 10 1940 14.5 30 
+Row 11 2405 14.9 20 
+Row 12 2671 13.5 30 
+Row 13 3270 21.9 20 
+Row 14 2901 16 20 
+Row 15 1850 13.8 40 
+Row 16 3988 13 10 
+Row 17 2790 15.6 30 
+Row 18 2865 16.4 20 
+Row 19 1773 19 30 
+Row 20 2702 13.5 20 
+Row 21 2556 13.2 30 
+Row 22 4732 18.5 10 
+Row 23 1800 14.4 40 
+Row 24 4098 14 10 
+Row 25 4141 14 20 
+Row 26 4060 19 20 
+Row 27 2158 15.5 20 
+Row 28 1985 16.4 30 
+Row 29 1875 16.4 40 
+Row 30 4080 13.7 20 
+Row 31 4456 13.5 10 
+Row 32 2575 16.2 30 
+Row 33 1755 16.9 40 
+Row 34 3609 8 10 
+Row 35 4165 11.4 20 
+Row 36 3465 16.6 20 
+Row 37 2310 18.5 20 
+Row 38 2720 19.4 30 
+Row 39 4100 13 10 
+Row 40 4077 14 10 
+Row 41 3250 21.8 30 
+Row 42 4422 12.5 10 
+Row 43 4257 15.5 10 
+Row 44 2000 16 30 
+Row 45 2264 15.5 30 
+Row 46 2025 18.2 40 
+Row 47 2155 16.5 30 
+Row 48 2830 15.9 20 
+Row 49 2835 14.7 20 
+Row 50 3288 15.5 20 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2840.75 15.6 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2531.62 16.41 28.03 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2830 15.9 20 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2553.0 14.68 28.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2451.26 16.48 28.23 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 3230 20.4 30 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3618.17 14.87 21.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2433.56 16.46 28.87 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 3230 20.4 30 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2691.0 15.03 24.29 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2420.21 16.46 28.84 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 3230 20.4 30 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3027.5 15.95 22.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2374.93 16.42 29.29 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 3230 20.4 30 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2635.22 16.48 28.89 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2685.57 16.31 27.38 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 3230 20.4 30 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2866.3 15.97 23.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2689.96 16.47 27.22 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 3230 20.4 30 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2852.55 15.7 25.45 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2304.09 16.61 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1795 17.4 30 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3237.17 16.39 22.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2304.09 16.61 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1795 17.4 30 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2780.62 14.66 26.92 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2302.98 16.61 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1795 17.4 30 
+week4:  0.39 0.42
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  9 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 2815 14.5 20 
+Row 2 2865 16.4 20 
+Row 3 1800 14.4 40 
+Row 4 5140 12 10 
+Row 5 2984 14.5 20 
+Row 6 3781 17 20 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 2815 14.5 20 
+Row 2 2865 16.4 20 
+Row 3 1800 14.4 40 
+Row 4 5140 12 10 
+Row 5 2984 14.5 20 
+Row 6 3781 17 20 
+Row 7 2158 15.5 20 
+Row 8 2230 14.5 30 
+Row 9 1825 12.2 30 
+Row 10 2200 13.2 30 
+Row 11 2210 14.4 30 
+Row 12 4080 13.7 20 
+Row 13 3735 13.2 20 
+Row 14 4190 13 20 
+Row 15 2672 17.5 30 
+Row 16 2545 17 20 
+Row 17 1975 15.2 30 
+Row 18 3425 16.9 20 
+Row 19 2678 16.5 30 
+Row 20 4054 14.3 20 
+Row 21 4257 15.5 10 
+Row 22 2979 19.5 20 
+Row 23 2290 17 30 
+Row 24 2702 13.5 20 
+Row 25 3672 11.5 20 
+Row 26 2615 14.8 30 
+Row 27 2901 16 20 
+Row 28 1795 17.5 30 
+Row 29 2380 20.7 30 
+Row 30 3221 13.5 20 
+Row 31 2595 11.3 30 
+Row 32 4638 16 10 
+Row 33 1795 17.4 30 
+Row 34 4215 13 20 
+Row 35 2065 14.5 30 
+Row 36 2295 11.6 30 
+Row 37 4042 14.5 10 
+Row 38 2635 16.4 30 
+Row 39 2110 19.2 40 
+Row 40 3353 14.5 20 
+Row 41 3530 20.1 30 
+Row 42 2800 14.4 30 
+Row 43 4220 11.1 20 
+Row 44 2740 16 20 
+Row 45 4363 13 10 
+Row 46 4154 13.5 10 
+Row 47 2665 13.9 30 
+Row 48 3210 17.2 20 
+Row 49 2506 14.5 20 
+Row 50 3193 17.8 20 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3595.5 16.3 22.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2665.17 16.43 27.69 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2255 17.7 30 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2780.4 16.56 22.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2552.43 16.41 27.88 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2255 17.7 30 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2991.33 14.63 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2546.8 16.41 28.57 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2255 17.7 30 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2741.14 16.26 27.14 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.57 16.56 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1985 21.5 40 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3251.25 13.36 21.25 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.57 16.56 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1985 21.5 40 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3028.0 16.23 22.22 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.57 16.56 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1985 21.5 40 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2996.1 16.85 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.36 16.54 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1985 21.5 40 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2711.36 15.5 24.55 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.32 16.55 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1985 21.5 40 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3427.92 14.65 19.17 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.32 16.55 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1985 21.5 40 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3374.69 14.25 22.31 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.32 16.55 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1985 21.5 40 
+week4:  0.19 0.43
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  10 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 4464 11.5 10 
+Row 2 4422 12.5 10 
+Row 3 3755 14 10 
+Row 4 2035 22.2 30 
+Row 5 4732 18.5 10 
+Row 6 3725 13.4 20 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 4464 11.5 10 
+Row 2 4422 12.5 10 
+Row 3 3755 14 10 
+Row 4 2035 22.2 30 
+Row 5 4732 18.5 10 
+Row 6 3725 13.4 20 
+Row 7 2100 16.5 30 
+Row 8 3420 22.2 20 
+Row 9 3781 17 20 
+Row 10 2051 17 30 
+Row 11 2979 19.5 20 
+Row 12 1990 14.9 30 
+Row 13 3563 10 20 
+Row 14 2900 12.6 30 
+Row 15 3988 13 10 
+Row 16 2215 14.9 30 
+Row 17 4440 14 20 
+Row 18 4060 19 20 
+Row 19 2542 17 30 
+Row 20 1937 14 30 
+Row 21 2130 14.7 40 
+Row 22 4096 13 10 
+Row 23 2582 14 20 
+Row 24 2230 14.5 30 
+Row 25 4080 13.7 20 
+Row 26 2335 23.7 40 
+Row 27 2050 17.3 40 
+Row 28 3530 20.1 30 
+Row 29 3761 9.5 20 
+Row 30 2190 14.2 30 
+Row 31 2300 14.5 30 
+Row 32 2875 17 20 
+Row 33 2150 14.9 30 
+Row 34 3820 16.7 20 
+Row 35 2634 13 20 
+Row 36 2672 17.5 30 
+Row 37 1835 17.3 40 
+Row 38 3278 18 20 
+Row 39 1795 17.4 30 
+Row 40 2945 16.4 30 
+Row 41 3535 19.2 20 
+Row 42 2205 14.5 40 
+Row 43 1968 18.8 40 
+Row 44 1975 15.2 30 
+Row 45 3609 8 10 
+Row 46 3870 15 10 
+Row 47 3605 15 20 
+Row 48 3070 16.7 20 
+Row 49 3282 15 20 
+Row 50 3210 17.2 20 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3102.75 15.93 22.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2310.24 16.6 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1970 17.6 30 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2799.8 12.96 26.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.91 16.58 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1773 19 30 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2951.17 14.47 21.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.91 16.58 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1773 19 30 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2830.57 17.33 27.14 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2310.92 16.59 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1773 19 30 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2550.75 17.47 30.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2310.92 16.59 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1773 19 30 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2920.67 15.8 25.56 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.54 16.6 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1773 19 30 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2900.1 15.16 24.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.54 16.6 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1773 19 30 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3015.09 15.75 22.73 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.54 16.6 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1773 19 30 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3141.92 14.44 21.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2308.51 16.61 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1773 19 30 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3262.31 15.55 22.31 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2308.51 16.61 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1773 19 30 
+week4:  0.35 0.42
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  11 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 3755 14 10 
+Row 2 2108 15.5 20 
+Row 3 2279 19 20 
+Row 4 2545 17 20 
+Row 5 2130 14.5 30 
+Row 6 2745 16.7 20 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 3755 14 10 
+Row 2 2108 15.5 20 
+Row 3 2279 19 20 
+Row 4 2545 17 20 
+Row 5 2130 14.5 30 
+Row 6 2745 16.7 20 
+Row 7 2515 14.8 20 
+Row 8 2711 15.5 30 
+Row 9 2639 17 20 
+Row 10 1760 16.1 40 
+Row 11 2375 17.5 30 
+Row 12 1990 17 30 
+Row 13 3651 17.7 20 
+Row 14 3039 15 20 
+Row 15 3425 16.9 20 
+Row 16 4129 13 10 
+Row 17 3211 17 20 
+Row 18 4732 18.5 10 
+Row 19 2171 16 30 
+Row 20 3632 18 20 
+Row 21 2290 17 30 
+Row 22 2755 15.8 30 
+Row 23 3785 19 20 
+Row 24 1845 15.3 30 
+Row 25 2965 15.8 20 
+Row 26 2930 15.5 20 
+Row 27 4165 11.4 20 
+Row 28 3353 14.5 20 
+Row 29 1968 18.8 40 
+Row 30 2130 14.5 30 
+Row 31 2694 15 20 
+Row 32 4257 15.5 10 
+Row 33 3139 14.5 20 
+Row 34 2405 14.9 20 
+Row 35 1950 19 30 
+Row 36 3060 17.1 20 
+Row 37 3504 12 20 
+Row 38 2205 14.5 40 
+Row 39 3620 18.7 20 
+Row 40 3672 11.5 20 
+Row 41 1835 17.3 40 
+Row 42 2572 14.9 30 
+Row 43 3897 18.5 20 
+Row 44 2979 19.5 20 
+Row 45 2635 18.3 30 
+Row 46 3449 10.5 20 
+Row 47 2065 14.5 30 
+Row 48 3892 12.5 20 
+Row 49 3664 11 10 
+Row 50 3140 13.6 20 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2608.5 15.25 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2308.86 16.62 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1980 15.3 40 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2586.0 16.48 24.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.13 16.58 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1980 15.3 40 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2857.0 15.93 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.54 16.59 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1980 15.3 40 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3471.14 14.67 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.54 16.59 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1980 15.3 40 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2908.0 15.09 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2304.81 16.57 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1980 15.3 40 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2672.0 16.58 26.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.36 16.57 29.49 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1800 16.4 40 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3417.9 15.49 22.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.73 16.59 29.49 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1800 16.4 40 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3396.73 13.8 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.68 16.6 29.49 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1800 16.4 40 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2660.92 16.14 25.83 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2304.96 16.58 29.49 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1800 16.4 40 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2930.77 15.44 25.38 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2304.96 16.58 29.49 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1800 16.4 40 
+week4:  0.32 0.42
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  12 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 2720 15.4 30 
+Row 2 1990 14.9 30 
+Row 3 2395 16 20 
+Row 4 3439 15.5 20 
+Row 5 3892 12.5 20 
+Row 6 2220 14 20 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 2720 15.4 30 
+Row 2 1990 14.9 30 
+Row 3 2395 16 20 
+Row 4 3439 15.5 20 
+Row 5 3892 12.5 20 
+Row 6 2220 14 20 
+Row 7 4154 13.5 10 
+Row 8 2295 11.6 30 
+Row 9 4274 12 10 
+Row 10 2789 15 20 
+Row 11 3399 11 20 
+Row 12 4456 13.5 10 
+Row 13 3102 16.5 20 
+Row 14 1925 14 30 
+Row 15 2833 15.5 20 
+Row 16 4209 12 10 
+Row 17 4498 14.5 20 
+Row 18 3761 9.5 20 
+Row 19 2391 15.5 30 
+Row 20 3459 16 20 
+Row 21 3169 12 10 
+Row 22 1795 17.5 30 
+Row 23 2451 16.5 30 
+Row 24 2144 14.7 40 
+Row 25 2565 13.6 30 
+Row 26 1975 19.4 40 
+Row 27 1995 16.2 40 
+Row 28 2700 12.9 30 
+Row 29 3609 8 10 
+Row 30 4425 10 10 
+Row 31 3897 18.5 20 
+Row 32 2135 16.6 30 
+Row 33 3445 13.4 20 
+Row 34 2155 16.4 30 
+Row 35 2000 16 30 
+Row 36 3210 17.2 20 
+Row 37 4237 14.5 10 
+Row 38 1975 15.2 30 
+Row 39 3329 15.5 20 
+Row 40 2401 19.5 20 
+Row 41 1937 14 30 
+Row 42 2950 19.9 40 
+Row 43 2904 16 20 
+Row 44 3870 15 10 
+Row 45 3193 17.8 20 
+Row 46 4440 14 20 
+Row 47 2665 13.9 30 
+Row 48 2074 19.5 30 
+Row 49 3264 16 20 
+Row 50 4325 12.2 20 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2791.75 15.5 27.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.9 16.61 29.41 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1875 16.4 40 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2600.2 14.78 30.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2310.75 16.6 29.4 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1875 16.4 40 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3370.0 14.12 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.68 16.6 29.4 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1875 16.4 40 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3010.86 15.53 22.86 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.68 16.6 29.4 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1875 16.4 40 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2439.38 15.94 26.25 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2313.91 16.59 29.4 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1875 16.4 40 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3036.11 15.26 21.11 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2313.91 16.59 29.4 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1875 16.4 40 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3075.3 15.52 22.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2314.48 16.61 29.39 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1875 16.4 40 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2510.55 15.82 29.09 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2372.62 16.51 30.19 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1875 16.4 40 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2864.17 15.25 23.33 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2376.69 16.5 29.88 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1875 16.4 40 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2916.15 15.8 22.31 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2360.14 16.57 30.0 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1875 16.4 40 
+week4:  0.33 0.42
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  13 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 4735 11 10 
+Row 2 2720 15.4 30 
+Row 3 4190 13 20 
+Row 4 2565 13.6 30 
+Row 5 2855 17.6 20 
+Row 6 4165 11.4 20 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 4735 11 10 
+Row 2 2720 15.4 30 
+Row 3 4190 13 20 
+Row 4 2565 13.6 30 
+Row 5 2855 17.6 20 
+Row 6 4165 11.4 20 
+Row 7 4380 12.1 20 
+Row 8 2451 16.5 30 
+Row 9 2672 17.5 30 
+Row 10 2046 19 30 
+Row 11 2542 17.5 30 
+Row 12 1965 15 40 
+Row 13 3190 24.8 30 
+Row 14 2150 14.9 30 
+Row 15 2234 12.5 30 
+Row 16 2434 15 40 
+Row 17 3070 16.7 20 
+Row 18 4354 9 10 
+Row 19 2401 19.5 20 
+Row 20 2335 23.7 40 
+Row 21 2472 14 20 
+Row 22 1845 15.3 30 
+Row 23 2901 16 20 
+Row 24 4055 12 10 
+Row 25 2500 15.1 40 
+Row 26 3302 15.5 20 
+Row 27 2930 13.8 20 
+Row 28 2545 17 20 
+Row 29 4363 13 10 
+Row 30 2615 14.8 30 
+Row 31 4312 8.5 10 
+Row 32 4502 13.5 10 
+Row 33 2620 14.4 30 
+Row 34 2190 14.1 30 
+Row 35 3380 15.8 20 
+Row 36 1970 17.6 30 
+Row 37 2405 14.9 20 
+Row 38 3425 13.2 20 
+Row 39 3169 12 10 
+Row 40 1968 18.8 40 
+Row 41 2223 16.5 30 
+Row 42 2125 14.7 40 
+Row 43 2065 14.5 30 
+Row 44 3381 18.7 20 
+Row 45 2755 15.8 30 
+Row 46 4154 13.5 10 
+Row 47 4100 13 10 
+Row 48 3504 12 20 
+Row 49 4135 13.5 20 
+Row 50 2391 15.5 30 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3435.0 15.75 17.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2054.79 17.21 32.56 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1965 15 40 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2136.0 15.74 30.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2278.39 16.63 29.73 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1965 15 40 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3148.83 16.37 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.07 16.62 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1965 15 40 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2937.29 16.04 25.71 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.07 16.62 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1965 15 40 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2642.25 15.16 26.25 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.07 16.62 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1965 15 40 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2615.56 16.18 26.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2310.07 16.61 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1965 15 40 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2850.1 15.52 23.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.06 16.63 29.6 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1965 15 40 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3291.36 14.99 19.09 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.99 16.64 29.59 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1965 15 40 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2957.17 16.71 22.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.99 16.64 29.59 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1965 15 40 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3145.15 16.9 22.31 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.99 16.64 29.59 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1965 15 40 
+week4:  0.37 0.42
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  14 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 2694 15 20 
+Row 2 3265 18.2 20 
+Row 3 3070 16.7 20 
+Row 4 3955 13.2 20 
+Row 5 3988 13 10 
+Row 6 2671 13.5 30 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 2694 15 20 
+Row 2 3265 18.2 20 
+Row 3 3070 16.7 20 
+Row 4 3955 13.2 20 
+Row 5 3988 13 10 
+Row 6 2671 13.5 30 
+Row 7 4209 12 10 
+Row 8 4464 11.5 10 
+Row 9 4215 13 20 
+Row 10 3415 15.8 20 
+Row 11 2200 13.2 30 
+Row 12 3777 12.5 20 
+Row 13 3250 21.8 30 
+Row 14 2226 16.5 20 
+Row 15 1845 15.3 30 
+Row 16 2265 18.2 30 
+Row 17 1867 19.5 30 
+Row 18 3021 16.5 20 
+Row 19 2592 18.5 20 
+Row 20 3730 19 20 
+Row 21 4657 13.5 10 
+Row 22 2045 18.5 30 
+Row 23 4098 14 10 
+Row 24 1985 21.5 40 
+Row 25 4422 12.5 10 
+Row 26 3897 18.5 20 
+Row 27 4042 14.5 10 
+Row 28 3365 15.5 20 
+Row 29 3465 16.6 20 
+Row 30 2930 13.8 20 
+Row 31 4082 13 20 
+Row 32 2835 14.7 20 
+Row 33 2288 17 30 
+Row 34 3530 20.1 30 
+Row 35 2711 15.5 30 
+Row 36 2046 19 30 
+Row 37 4135 13.5 20 
+Row 38 3121 16.5 20 
+Row 39 2565 13.6 30 
+Row 40 2933 14.5 20 
+Row 41 1649 16.5 30 
+Row 42 3651 17.7 20 
+Row 43 2230 14.5 30 
+Row 44 2350 16.8 30 
+Row 45 2572 14.9 30 
+Row 46 1995 16.2 40 
+Row 47 4215 12.8 10 
+Row 48 3193 17.8 20 
+Row 49 4360 14.9 20 
+Row 50 2234 12.5 30 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3086.5 14.68 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2308.81 16.61 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1990 17 30 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3260.6 14.64 22.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2460.51 16.41 28.1 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1990 17 30 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3548.5 14.05 21.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2438.14 16.43 28.29 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1990 17 30 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3083.0 15.5 24.29 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2447.12 16.45 28.29 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1990 17 30 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3193.75 15.74 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2443.04 16.47 28.35 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1990 17 30 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2567.22 17.36 28.89 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2389.06 16.43 28.74 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1990 17 30 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3112.5 16.83 27.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2367.48 16.46 29.01 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1990 17 30 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3195.64 14.28 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2364.67 16.45 29.05 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1990 17 30 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3024.25 15.33 23.33 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2303.6 16.6 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1990 17 30 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2806.92 14.6 23.85 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2299.13 16.56 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 3190 24.8 30 
+week4:  0.39 0.42
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  15 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 3520 16.4 20 
+Row 2 2265 18.2 30 
+Row 3 3035 20.5 20 
+Row 4 2150 14.9 30 
+Row 5 2370 13 40 
+Row 6 4096 13 10 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 3520 16.4 20 
+Row 2 2265 18.2 30 
+Row 3 3035 20.5 20 
+Row 4 2150 14.9 30 
+Row 5 2370 13 40 
+Row 6 4096 13 10 
+Row 7 2868 15.5 20 
+Row 8 2789 15 20 
+Row 9 4457 13.5 10 
+Row 10 4055 12 10 
+Row 11 3265 18.2 20 
+Row 12 2592 18.5 20 
+Row 13 2130 14.7 40 
+Row 14 4135 13.5 20 
+Row 15 2930 15.5 20 
+Row 16 2660 14 20 
+Row 17 4360 14.9 20 
+Row 18 3892 12.5 20 
+Row 19 2620 14.4 30 
+Row 20 2595 11.3 30 
+Row 21 3436 11 20 
+Row 22 2506 14.5 20 
+Row 23 2408 19 20 
+Row 24 4154 13.5 10 
+Row 25 2950 19.9 40 
+Row 26 1968 18.8 40 
+Row 27 3415 15.8 20 
+Row 28 4060 19 20 
+Row 29 1875 16.4 40 
+Row 30 4955 11.5 10 
+Row 31 4746 12 10 
+Row 32 3039 15 20 
+Row 33 3250 21.8 30 
+Row 34 3672 11.5 10 
+Row 35 2310 18.5 20 
+Row 36 4098 14 10 
+Row 37 3735 13.2 20 
+Row 38 1836 21 30 
+Row 39 2401 19.5 20 
+Row 40 3282 15 20 
+Row 41 2914 16 20 
+Row 42 2372 15 20 
+Row 43 3169 12 10 
+Row 44 2625 18.6 30 
+Row 45 4498 14.5 20 
+Row 46 4257 15.5 10 
+Row 47 3278 18 20 
+Row 48 3630 17.7 20 
+Row 49 1955 20.5 30 
+Row 50 2515 14.8 20 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2806.75 16.38 22.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2290.19 16.71 30.69 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2070 18.6 40 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3525.8 14.8 16.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2290.52 16.69 30.27 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2070 18.6 40 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3411.67 14.63 18.33 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2282.21 16.7 30.74 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2070 18.6 40 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2861.86 15.14 25.71 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.12 16.63 29.49 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2070 18.6 40 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2856.13 14.94 21.25 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2313.07 16.62 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2070 18.6 40 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3011.67 16.33 22.22 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.23 16.62 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2070 18.6 40 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2931.3 15.3 24.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.23 16.62 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2070 18.6 40 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2968.64 15.21 24.55 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.63 16.64 29.44 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2070 18.6 40 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2720.25 15.92 27.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2504.5 16.52 29.73 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2070 18.6 40 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2854.92 15.87 25.38 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2457.1 16.47 30.14 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2070 18.6 40 
+week4:  0.27 0.43
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  16 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 3399 11 20 
+Row 2 2930 15.5 20 
+Row 3 1980 15.3 40 
+Row 4 4042 14.5 10 
+Row 5 2145 18 30 
+Row 6 3430 17.2 20 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 3399 11 20 
+Row 2 2930 15.5 20 
+Row 3 1980 15.3 40 
+Row 4 4042 14.5 10 
+Row 5 2145 18 30 
+Row 6 3430 17.2 20 
+Row 7 3085 17.6 20 
+Row 8 3820 16.7 20 
+Row 9 1773 19 30 
+Row 10 2489 15 20 
+Row 11 4360 14.9 20 
+Row 12 2375 17.5 30 
+Row 13 3725 19 30 
+Row 14 3664 11 10 
+Row 15 3735 13.2 20 
+Row 16 2745 16.7 20 
+Row 17 2515 14.8 20 
+Row 18 4141 14 20 
+Row 19 4341 10 20 
+Row 20 1963 15.5 30 
+Row 21 4906 12.5 10 
+Row 22 2800 14.4 30 
+Row 23 2264 15.5 30 
+Row 24 2120 15.5 30 
+Row 25 2003 19 30 
+Row 26 4457 13.5 10 
+Row 27 3892 12.5 20 
+Row 28 2833 15.5 20 
+Row 29 2979 19.5 20 
+Row 30 2190 14.1 30 
+Row 31 2295 11.6 30 
+Row 32 3962 13.9 20 
+Row 33 3433 12 20 
+Row 34 2740 16 20 
+Row 35 4055 12 10 
+Row 36 2990 18.2 20 
+Row 37 1800 16.4 40 
+Row 38 3563 10 20 
+Row 39 1975 19.4 40 
+Row 40 4325 12.2 20 
+Row 41 5140 12 10 
+Row 42 4952 11.5 10 
+Row 43 2164 15 30 
+Row 44 2025 18.2 40 
+Row 45 4295 14.9 20 
+Row 46 1835 20.5 30 
+Row 47 2585 14.5 30 
+Row 48 2380 20.7 30 
+Row 49 2110 19.2 40 
+Row 50 2408 19 20 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3230.5 12.98 22.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2310.21 16.61 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1985 16.4 30 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2485.6 16.02 28.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2571.24 16.49 26.95 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 1985 16.4 30 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3178.5 16.72 26.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.53 16.6 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2045 18.5 30 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2561.86 16.39 31.43 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.53 16.6 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2045 18.5 30 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3272.88 15.3 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2311.53 16.6 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2045 18.5 30 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3430.44 15.54 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.07 16.61 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2045 18.5 30 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2760.0 17.27 26.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.07 16.61 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2045 18.5 30 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2759.09 15.52 23.64 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.07 16.61 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2045 18.5 30 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3069.67 15.48 26.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2312.07 16.61 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2045 18.5 30 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2972.0 16.75 23.85 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2309.26 16.61 29.45 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2045 18.5 30 
+week4:  0.37 0.42
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  17 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 4499 12.5 10 
+Row 2 2945 16 20 
+Row 3 2489 15 20 
+Row 4 4425 10 10 
+Row 5 2050 17.3 40 
+Row 6 4129 13 10 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 4499 12.5 10 
+Row 2 2945 16 20 
+Row 3 2489 15 20 
+Row 4 4425 10 10 
+Row 5 2050 17.3 40 
+Row 6 4129 13 10 
+Row 7 2790 15.6 30 
+Row 8 3988 13 10 
+Row 9 1649 16.5 30 
+Row 10 2990 18.2 20 
+Row 11 2401 19.5 20 
+Row 12 2395 18 30 
+Row 13 2545 17 20 
+Row 14 1985 19.4 30 
+Row 15 3410 15.8 20 
+Row 16 3420 22.2 20 
+Row 17 2150 14.9 30 
+Row 18 4699 14.5 10 
+Row 19 2123 14 30 
+Row 20 3415 15.8 20 
+Row 21 4082 13 20 
+Row 22 4140 13.7 20 
+Row 23 3425 16.9 20 
+Row 24 4654 13 10 
+Row 25 2950 19.9 40 
+Row 26 4220 11.1 20 
+Row 27 2265 15.2 30 
+Row 28 2125 17.3 40 
+Row 29 2904 16 20 
+Row 30 3940 13 20 
+Row 31 2711 15.5 30 
+Row 32 2525 16 30 
+Row 33 1945 16.8 30 
+Row 34 2625 18.6 30 
+Row 35 2065 14.5 30 
+Row 36 2905 14.3 20 
+Row 37 2430 14.5 20 
+Row 38 3380 15.8 20 
+Row 39 4096 13 10 
+Row 40 3282 15 20 
+Row 41 4042 14.5 10 
+Row 42 4464 12 10 
+Row 43 2620 14.4 30 
+Row 44 2065 17.8 30 
+Row 45 1975 19.4 40 
+Row 46 4360 14.9 20 
+Row 47 2740 16 20 
+Row 48 4274 12 10 
+Row 49 3021 16.5 20 
+Row 50 4215 12.8 10 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3514.5 15.05 17.5 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2645.85 16.45 25.38 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2790 15.6 30 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2524.6 14.72 28.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2645.85 16.45 25.38 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2790 15.6 30 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2386.67 16.88 26.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2645.85 16.45 25.38 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2790 15.6 30 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3164.14 15.74 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2645.85 16.45 25.38 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2790 15.6 30 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2922.38 15.3 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2645.85 16.45 25.38 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2790 15.6 30 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2265.33 16.63 30.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2645.85 16.45 25.38 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2790 15.6 30 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3227.1 16.12 25.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2303.95 16.59 29.65 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2790 15.6 30 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3114.0 15.31 21.82 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2303.95 16.59 29.65 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2790 15.6 30 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2694.67 15.5 25.83 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2546.08 15.92 26.99 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 3250 21.8 30 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2985.46 14.64 23.85 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2546.08 15.92 26.99 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 3250 21.8 30 
+week4:  0.41 0.48
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  18 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 4668 11.5 20 
+Row 2 2246 14 30 
+Row 3 1985 16.4 30 
+Row 4 3664 11 10 
+Row 5 2020 19.2 30 
+Row 6 2600 12.8 20 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 4668 11.5 20 
+Row 2 2246 14 30 
+Row 3 1985 16.4 30 
+Row 4 3664 11 10 
+Row 5 2020 19.2 30 
+Row 6 2600 12.8 20 
+Row 7 2144 14.7 40 
+Row 8 2130 14.7 40 
+Row 9 3725 19 30 
+Row 10 4154 13.5 10 
+Row 11 1980 15.3 40 
+Row 12 5140 12 10 
+Row 13 2219 16.5 30 
+Row 14 3449 10.5 20 
+Row 15 2905 14.3 20 
+Row 16 1975 19.4 40 
+Row 17 2700 12.9 30 
+Row 18 4209 12 10 
+Row 19 4498 14.5 20 
+Row 20 4376 15 10 
+Row 21 3735 13.2 20 
+Row 22 2901 16 20 
+Row 23 2190 14.2 30 
+Row 24 4215 12.8 10 
+Row 25 2745 16.7 20 
+Row 26 4141 14 20 
+Row 27 2807 13.5 20 
+Row 28 1867 19.5 30 
+Row 29 4657 13.5 10 
+Row 30 2265 15.2 30 
+Row 31 2542 17.5 30 
+Row 32 1825 18.6 40 
+Row 33 2145 18 30 
+Row 34 3425 13.2 20 
+Row 35 3620 18.7 20 
+Row 36 2110 19.2 40 
+Row 37 2430 14.5 20 
+Row 38 2330 13.5 20 
+Row 39 3233 15.4 20 
+Row 40 4100 13 10 
+Row 41 3353 14.5 20 
+Row 42 3282 15 20 
+Row 43 4732 18.5 10 
+Row 44 4360 14.9 20 
+Row 45 2900 12.6 30 
+Row 46 1950 19 30 
+Row 47 4096 13 10 
+Row 48 1613 18 40 
+Row 49 3160 19.6 30 
+Row 50 2930 15.5 20 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2606.0 15.63 30.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2302.69 16.61 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2380 20.7 30 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3342.0 14.98 22.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2613.3 16.41 26.61 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2380 20.7 30 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3684.33 14.67 15.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.93 16.58 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2380 20.7 30 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2357.71 17.23 27.14 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.93 16.58 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2380 20.7 30 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2765.75 15.44 26.25 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.93 16.58 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2380 20.7 30 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3135.22 16.22 23.33 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.93 16.58 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2380 20.7 30 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2670.2 15.68 23.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2306.94 16.59 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2380 20.7 30 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3097.91 15.23 22.73 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2304.46 16.6 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2380 20.7 30 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2800.92 15.28 25.83 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2305.34 16.56 29.49 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2972.31 15.01 21.54 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2224.27 16.46 30.12 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+week4:  0.17 0.42
+-----------------------------------------------------
+-----------------------------------------------------
+Run Gate at  19 times
+initially evaluate:  4
+subsequently evaluate:  10
+SOME:  0.5
+1. top6 Lbs-, Acc+, Mpg+, 
+Row 1 3139 14.5 20 
+Row 2 3892 12.5 20 
+Row 3 2648 15 20 
+Row 4 2890 17.3 20 
+Row 5 2125 14.5 30 
+Row 6 4209 12 10 
+2. top50 Lbs-, Acc+, Mpg+, 
+Row 1 3139 14.5 20 
+Row 2 3892 12.5 20 
+Row 3 2648 15 20 
+Row 4 2890 17.3 20 
+Row 5 2125 14.5 30 
+Row 6 4209 12 10 
+Row 7 3060 17.1 20 
+Row 8 2210 14.4 30 
+Row 9 3613 16.5 20 
+Row 10 3520 16.4 20 
+Row 11 4699 14.5 10 
+Row 12 2545 17 20 
+Row 13 3193 17.8 20 
+Row 14 4215 12.8 10 
+Row 15 4237 14.5 10 
+Row 16 3210 17.2 20 
+Row 17 2789 15 20 
+Row 18 3278 18 20 
+Row 19 1975 19.4 40 
+Row 20 2226 16.5 20 
+Row 21 2300 14.5 30 
+Row 22 2220 14 20 
+Row 23 1836 21 30 
+Row 24 4955 11.5 10 
+Row 25 2046 19 30 
+Row 26 4278 9.5 20 
+Row 27 3070 16.7 20 
+Row 28 3609 8 10 
+Row 29 2246 14 30 
+Row 30 2464 15.5 30 
+Row 31 2108 15.5 20 
+Row 32 2904 16 20 
+Row 33 5140 12 10 
+Row 34 4732 18.5 10 
+Row 35 2234 12.5 30 
+Row 36 2660 14 20 
+Row 37 2380 20.7 30 
+Row 38 3410 15.1 20 
+Row 39 3121 16.5 20 
+Row 40 2933 14.5 20 
+Row 41 2123 14 30 
+Row 42 2035 22.2 30 
+Row 43 2950 17.3 30 
+Row 44 4294 16 10 
+Row 45 2050 17.3 40 
+Row 46 4335 14.5 20 
+Row 47 3777 12.5 20 
+Row 48 1835 20.5 30 
+Row 49 2930 15.5 20 
+Row 50 2575 16.2 30 
+3. most 
+Lbs-, Acc+, Mpg+, 
+Row 1 2130 24.6 40 
+BUDGET 0:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3225.5 15.98 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2037.91 17.13 29.57 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2074 19.5 30 
+BUDGET 1:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3344.2 14.44 20.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2544.89 16.53 27.19 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2074 19.5 30 
+BUDGET 2:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2928.17 13.77 21.67 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2314.05 16.58 29.42 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2074 19.5 30 
+BUDGET 3:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3008.29 15.56 28.57 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.78 16.61 29.5 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2074 19.5 30 
+BUDGET 4:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2657.63 15.79 26.25 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2306.13 16.61 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2074 19.5 30 
+BUDGET 5:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3085.0 14.91 23.33 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2306.13 16.61 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2074 19.5 30 
+BUDGET 6:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2827.9 16.21 26.0 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2306.13 16.61 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2074 19.5 30 
+BUDGET 7:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3816.0 13.49 18.18 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2306.13 16.61 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2074 19.5 30 
+BUDGET 8:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 3632.5 13.2 19.17 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2306.66 16.62 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2074 19.5 30 
+BUDGET 9:
+4. rand
+Lbs-, Acc+, Mpg+, 
+Row 1 2996.08 14.15 22.31 
+5. mid
+Lbs-, Acc+, Mpg+, 
+Row 1 2307.53 16.62 29.55 
+6. top
+Lbs-, Acc+, Mpg+, 
+Row 1 2074 19.5 30 
+week4:  0.35 0.42
+-----------------------------------------------------
