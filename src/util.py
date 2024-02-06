@@ -61,9 +61,9 @@ def o(x):
     if type(x) == list:
         return str(x)
     elif hasattr(x, "items"):    
-        return x.__class__.__name__ +"{"+ (" ".join([f"{k}:{v}" for k,v in sorted(x.items()) if k[0]!="_"]))+"}"
+        return "{"+ (" ".join([f"{k}:{v}" for k,v in sorted(x.items()) if k[0]!="_"]))+"}"
     else:
-        return x.__class__.__name__ +"{"+ (" ".join([f"{k}:{v}" for k,v in sorted(vars(x).items()) if k[0]!="_"]))+"}"
+        return "{"+ (" ".join([f"{k}:{v}" for k,v in sorted(vars(x).items()) if k[0]!="_"]))+"}"
 
 def getAbspath(path):
     #print (path)

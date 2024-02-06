@@ -23,12 +23,41 @@ class TEST:
             self.week3Task4()
         elif (todo == "week4"):
             self.week4()
+        elif (todo == "week5Dis"):
+            self.week5Dis()
+        elif (todo == "week5Far"):
+            self.week5Far()
         else:
-            self.stats()
+            #self.stats()
             #self.week3Task1()
             #self.week3Task3()
             #self.week3Task4()
             self.week4()
+            #self.week5Dis()
+
+    def week5Far(self):
+        # load dataset
+        absolute_path = util.getAbspath("data/auto93.csv")
+        data = DATA(absolute_path)
+        far = data.farapart(data.rows)
+
+        print("far1: ", util.o(far[0]))
+        print("far2: ", util.o(far[1]))
+
+        formatted_number = format(far[2], '.2f')
+        print("distance = ", formatted_number)
+
+        assert formatted_number == "0.85"
+
+    def week5Dis(self):
+        # load dataset
+        absolute_path = util.getAbspath("data/auto93.csv")
+        data = DATA(absolute_path)
+        rowOne = data.rows[0]
+        rows = rowOne.neighbors(data)
+        for i in range(len(rows)):
+            if i%30 == 0:
+                print(i+1, rows[i].cells, round(rows[i].dist(rowOne, data),2))
 
     def week4(self):
         TestFlag = True

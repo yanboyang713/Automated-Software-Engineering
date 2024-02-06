@@ -40,3 +40,19 @@ class ROWS:
             d += abs(col.heaven - col.norm(self.cells[col.at])) ** 2
         return math.sqrt(d) / math.sqrt(n)
 
+    def neighbors(self, data, rows = None):
+        if rows is None:
+            rows = data.rows
+        rows = rows.copy()
+        rows.sort(key=lambda row: self.dist(row, data))
+        return rows
+
+    def dist(self, other, data):
+        d, n = 0, 0
+        p = 2
+
+        for col in data.cols.x :
+            n += 1
+            d += col.dist(self.cells[col.at], other.cells[col.at]) ** p
+        
+        return (d/n) ** (1/p)

@@ -287,3 +287,14 @@ class DATA:
             # move item TODO from DARK to LITE
             lite.append(dark.pop(todo))
         return stats, bests
+
+    # Return two distance points, and the distance between them.
+    # If `sortp` then ensure `a` is better than `b`.
+    def farapart(self, rows, sortp = None, a = None):
+        far = int((len(rows) * 0.95 ) // 1) 
+        evals = a and 1 or 2
+        a = a or random.choice(rows).neighbors(self, rows)[far]
+        b = a.neighbors(self, rows)[far]
+        if sortp and b.d2h(self) < a.d2h(self):
+            a, b = b, a
+        return (a, b, a.dist(b, self), evals)

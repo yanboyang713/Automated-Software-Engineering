@@ -42,3 +42,8 @@ class SYM:
             return 0
         else:
             return (h + the.m * prior)/ (self.n + the.m)
+
+    def dist(self, x, y):
+        if x == "?" or y == "?":
+            return 1
+        return 1 if x != y else 0

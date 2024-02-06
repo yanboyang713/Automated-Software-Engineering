@@ -122,6 +122,17 @@ Lbs-, Acc+, Mpg+,
 Row 1 2130 24.6 40
 #+end_src
 
+* Week5
+** Distance
+#+begin_src bash
+python3 ./src/gate.py -t week5Dis
+#+end_src
+
+** fastmap heuristic
+#+begin_src bash
+python3 ./src/gate.py -t week5Far
+#+end_src
+
 * Pre-commit
 ** install
 #+begin_src bash
