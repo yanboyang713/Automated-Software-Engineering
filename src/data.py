@@ -289,8 +289,6 @@ class DATA:
             lite.append(dark.pop(todo))
         return stats, bests
 
-    # Return two distance points, and the distance between them.
-    # If `sortp` then ensure `a` is better than `b`.
     def farapart(self, rows, sortp = None, a = None):
         far = int((len(rows) * 0.95 ) // 1) 
         evals = a and 1 or 2

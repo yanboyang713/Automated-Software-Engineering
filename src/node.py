@@ -1,9 +1,15 @@
-import math # for testing purposes
+def log2_manual(n):
+    if n <= 0:
+        return -1  # or handle this case as you see fit
+    result = 0
+    while n > 1:
+        n //= 2
+        result += 1
+    return result
 
 class NODE:
     def __init__(self, data):
         self.here = data
-        # Declare our class variables to be edited later
         self.left = None
         self.right = None
         self.C = None
@@ -12,10 +18,8 @@ class NODE:
         self.rights = None
 
     def walk(self, fun, depth=0):
-        fun(self, depth, not (self.lefts or self.rights))  # send a boolean saying whether we are at
-        # a leaf value or not --> this fun will likely be a printing statement in our context
+        fun(self, depth, not (self.lefts or self.rights))
         if self.lefts:
-            #  if there is a node to our bottom left then keep walking the walk
             self.lefts.walk(fun, depth+1)
         if self.rights:
             self.rights.walk(fun, depth+1)
@@ -31,17 +35,18 @@ class NODE:
             for i in range(len(print_cells)):
                 print_cells[i] = round(print_cells[i], 2)
             post = f"{d2h(node.here)} \t{print_cells}" if leafp else f""
-            nonlocal maxDepth  ## asscoiates this maxDepth with the maxDepth above the _show
+            nonlocal maxDepth
             maxDepth = max(maxDepth, depth)
-            print(f"{'|.. '*depth}{post}")  # print it out!
+            print(f"{'|.. '*depth}{post}")
 
         self.walk(_show)
-        # test that the max depth of recursive tree doesn't go above log2(N) where N is
-        # the number of data points
-        assert maxDepth <= math.log2(len(self.here.rows))
+        assert maxDepth <= log2_manual(len(self.here.rows))
+
         print("")
+
         print_cells = self.here.mid().cells
+
         for i in range(len(print_cells)):
-            print_cells[i] = round(print_cells[i], 2)  # round all values by 2 decimal places
-        print(f"{'    '*maxDepth} {d2h(self.here)} {print_cells}")
-        print(f"{'    '*maxDepth} ---- {self.here.cols.names}")
+            print_cells[i] = round(print_cells[i], 2)
+        print(f"{d2h(self.here)} {print_cells}")
+        print(f"{self.here.cols.names}")
