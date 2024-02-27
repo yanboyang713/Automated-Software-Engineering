@@ -6,6 +6,7 @@ Student Number: 200495053
 from row import ROWS
 from util import csv, rnd
 from cols import COLS
+from node import NODE
 import random
 
 class DATA:
@@ -298,3 +299,56 @@ class DATA:
         if sortp and b.d2h(self) < a.d2h(self):
             a, b = b, a
         return (a, b, a.dist(b, self), evals)
+
+
+    def clone(self, rows = []):
+        new = DATA([self.cols.names])
+        for row in rows:
+            new.add(row)
+        return new
+
+    def half(self, rows, sortp = None, before  = None):
+        some = random.sample(rows, min(12, len(rows)))
+        a, b, C, evals = self.farapart(some, sortp, before)
+        def d(row1, row2):
+            return row1.dist(row2, self)
+        def project(r):
+            return (d(r,a)**2 + C**2 -d(r,b)**2)/(2*C) if C != 0 else float("inf")
+        _as, _bs = [], []
+        rows = rows.copy()
+        rows.sort(key=project)
+        for (n, row) in enumerate(rows):
+            if n < len(rows) // 2:
+                _as.append(row)
+            else:
+                _bs.append(row)
+        return (_as, _bs, a, b, C, d(a, _bs[0]), evals)
+
+
+    def tree(self, sortp):
+        evals = 0
+        def _tree(data,above = None):
+            node = NODE(data)
+            if len(data.rows) > 2*(len(self.rows))**.5:
+                lefts, rights, node.left, node.right, node.C, node.cut, evals1 = self.half(data.rows, sortp, above)
+                nonlocal evals
+                evals = evals + evals1
+                node.lefts = _tree(self.clone(lefts), node.left)
+                node.rights = _tree(self.clone(rights), node.right)
+            return node
+        return _tree(self), evals
+
+    def branch(self, stop = None):
+        evals, rest = 1, []
+        stop = stop or (2*(len(self.rows)) ** 0.5)
+        def _branch(data, above = None):
+            nonlocal evals
+            if len(data.rows) > stop:
+                lefts, rights, left = self.half(data.rows, True, above)[:3]
+                evals += 1
+                for row in rights:
+                    rest.append(row)
+                return _branch(data.clone(lefts), left)
+            else:
+                return self.clone(data.rows), self.clone(rest), evals
+        return _branch(self)

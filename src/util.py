@@ -51,6 +51,9 @@ def rnd(n, ndecs = 2):
     mult = 10 ** ndecs
     return math.floor(n * mult + 0.5) / mult
 
+def rnd_list(a, ndecs = 2):
+    return list(map(lambda v: round(v, ndecs) if type(v) == float else v, a))
+
 def oo(x) : print(o(x)); return x
 
 def o(x): 

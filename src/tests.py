@@ -27,13 +27,50 @@ class TEST:
             self.week5Dis()
         elif (todo == "week5Far"):
             self.week5Far()
-        else:
+        elif (todo == "week7task1"):
+            self.week7task1()
+        elif (todo == "week7task2"):
+            self.week7task2()
+        elif (todo == "week7task3"):
+            self.week7task3()
+        #else:
+            #print ("else")
             #self.stats()
             #self.week3Task1()
             #self.week3Task3()
             #self.week3Task4()
-            self.week4()
+            #self.week4()
             #self.week5Dis()
+            #self.week7task1()
+
+    def week7task1(self):
+        # load dataset
+        absolute_path = util.getAbspath("data/auto93.csv")
+
+        t, evals = DATA(absolute_path).tree(True)
+        t.show()
+
+        print("evals:", evals)
+
+    def week7task2(self):
+        # load dataset
+        absolute_path = util.getAbspath("data/auto93.csv")
+
+        d = DATA(absolute_path)
+        best, rest, evals = d.branch()
+
+        print(util.rnd_list(best.mid().cells), util.rnd_list(rest.mid().cells))
+        print("evals:", evals)
+
+    def week7task3(self):
+        # load dataset
+        absolute_path = util.getAbspath("data/auto93.csv")
+
+        d = DATA(absolute_path)
+        best1, rest, evals1 = d.branch(32)
+        best2, _,    evals2 = best1.branch(4)
+        print(util.rnd_list(best2.mid().cells), util.rnd_list(rest.mid().cells))
+        print(evals1+evals2)
 
     def week5Far(self):
         # load dataset

@@ -2,6 +2,9 @@
 Student Name: Boyang Yan
 Student Number: 200495053
 
+* Homework
+https://github.com/txt/aa24.git
+
 * Week 2
 #+begin_src bash
   python3 ./src/gate.py -f ./data/auto93.csv -t stats
@@ -131,6 +134,20 @@ python3 ./src/gate.py -t week5Dis
 ** fastmap heuristic
 #+begin_src bash
 python3 ./src/gate.py -t week5Far
+#+end_src
+
+* Week7
+** Task 1
+#+begin_src bash
+python3 ./src/gate.py -t week7task1
+#+end_src
+** Task 2
+#+begin_src bash
+python3 ./src/gate.py -t week7task2
+#+end_src
+** Task 3
+#+begin_src bash
+python3 ./src/gate.py -t week7task3
 #+end_src
 
 * Pre-commit
