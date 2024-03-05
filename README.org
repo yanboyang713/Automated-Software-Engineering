@@ -150,6 +150,20 @@ python3 ./src/gate.py -t week7task2
 python3 ./src/gate.py -t week7task3
 #+end_src
 
+* Week8
+https://github.com/txt/aa24/blob/main/docs/hw06.md
+
+** Task 1
+#+begin_src bash
+  python3 ./src/gate.py -t week8task1
+#+end_src
+
+** Task 2
+#+begin_src bash
+  python3 ./src/gate.py -t week8task2
+  python gate.py -t smo_ranking_stats
+#+end_src
+
 * Pre-commit
 ** install
 #+begin_src bash

@@ -56,6 +56,33 @@ class DATA:
 
         return ROWS(u)
 
+    def div(self, cols = "all"):
+        u = []  # an array to be returned
+
+        if cols == "y":
+            for col in self.cols.y:
+                #  Remember, col here is either a NUM or SYM object
+                u.append(col.div())
+
+        elif cols == "x":
+            for col in self.cols.x:
+                #  Remember, col here is either a NUM or SYM object
+                u.append(col.div())
+
+        elif cols == "all":
+            for col in self.cols.all:
+                #  Remember, col here is either a NUM or SYM object
+                u.append(col.div())
+
+        else:
+            #  This is our strange scenario where the str input in lets say an individual column
+            for col in self.cols.all:
+                if col.txt in cols:
+                    #  Remember, col here is either a NUM or SYM object
+                    u.append(col.div())
+
+        return ROWS(u)
+
     def stats(self, cols="y", func="mid", ndivs=2):
         result = {}
         result [".N"] = len(self.rows) - 1
@@ -244,23 +271,23 @@ class DATA:
             print(f"{rnd(row.cells[varIndex[index]])}", end=' ')
         print()
 
-    def gate(self, budget0, budget, some):
+    def gate(self, budget0, budget, some, print_baselines=True, test_name=""):
         stats = []
         bests = []
-        # shuffle order of rows
-        rows = random.sample(self.rows, len(self.rows))
-        # baseline 1
-        # y values of first 6 examples in ROWS
-        self.baseline1and2(rows, 6, 1)
-        # baseline 2
-        # y values of first 50 examples in ROWS
-        self.baseline1and2(rows, 50, 2)  
+        if print_baselines:
+            # shuffle order of rows
+            rows = random.sample(self.rows, len(self.rows))  # shuffles rows
+            # baseline 1
+            # y values of first 6 examples in ROWS
+            self.baseline1and2(rows, 6, 1)
+            # baseline 2
+            # y values of first 50 examples in ROWS
+            self.baseline1and2(rows, 50, 2)
 
-        # sort ROWS on "distance to heaven"
-        # Distance to heaven scores lower for rows whose goals are closer to the ideal
-        rows.sort(key=lambda x: x.d2h(self))
-        # baseline 3: most
-        self.baseline3(rows[0])
+            # Now we must sort rows based on the distance to heaven -- will fix this once d2h is done
+            rows.sort(key=lambda x: x.d2h(self))
+            # print some stuff...
+            self.baseline3(rows[0])  # baseline 3
 
         # reshuffle rows
         rows = random.sample(self.rows, len(self.rows))
@@ -275,15 +302,19 @@ class DATA:
             best, rest = self.best_rest(lite, n)
             todo, selected = self.split(best, rest, lite, dark)
 
-            print(f"BUDGET {i}:", end='\n')
-            # y values of centroid of (from DARK, select BUDGET0+i rows at random)
-            self.baseline4(budget0, i, dark)
-            # y values of centroid of SELECTED
             stats.append(selected.mid())
-            self.baseline5(selected.mid())
-            # y values of first row in BEST
             bests.append(best.rows[0])
-            self.baseline6(best.rows[0])
+
+            if print_baselines:
+                print(f"BUDGET {i}:", end='\n')
+                # y values of centroid of (from DARK, select BUDGET0+i rows at random)
+                self.baseline4(budget0, i, dark)
+                # y values of centroid of SELECTED
+                stats.append(selected.mid())
+                self.baseline5(selected.mid())
+                # y values of first row in BEST
+                bests.append(best.rows[0])
+                self.baseline6(best.rows[0])
             
             # move item TODO from DARK to LITE
             lite.append(dark.pop(todo))

@@ -7,6 +7,10 @@ from data import DATA
 from util import norm, rnd, SLOTS
 import util as util
 from configure import the
+from datetime import date, datetime
+import random
+from statistics import mean, stdev
+import Sample
 
 class TEST:
     def __init__(self):
@@ -33,6 +37,11 @@ class TEST:
             self.week7task2()
         elif (todo == "week7task3"):
             self.week7task3()
+        elif (todo == "week8task1"):
+            self.week8task1()
+        elif (todo == "week8task2"):
+            self.week8task2()
+
         #else:
             #print ("else")
             #self.stats()
@@ -42,6 +51,135 @@ class TEST:
             #self.week4()
             #self.week5Dis()
             #self.week7task1()
+
+    def week8task1(self):
+        print("Date:", datetime.now())
+
+        # load dataset
+        absolute_path = util.getAbspath("data/auto93.csv")
+
+        print("File:", absolute_path)
+        repeats = 20
+        print("repeats:", repeats)
+        print("seed:", the.seed)
+        random.seed(the.seed)
+        d = DATA(absolute_path)
+        print("rows:", len(d.rows))
+        print("cols:", len(d.cols.names))
+
+        # print column names
+        print("names\t", d.cols.names, "\tD2h")
+
+        # print mid and div
+        mid = d.mid()
+        print("mid\t", util.rnd_list(mid.cells), "\t", util.rnd(mid.d2h(d)))
+        div = d.div()
+        print("div\t", util.rnd_list(div.cells), "\t", util.rnd(div.d2h(d)))
+
+        # Run smo9 20 times and print the best value in each iteration
+        print("#")
+        for i in range(20):
+            _stats, _best = d.gate(4, 9, .5, False)
+            #print (_best)
+            print("smo9\t", _best[-1].cells, "\t", util.rnd(_best[-1].d2h(d)))
+
+        # Pick 50 random and get the best (20 iterations)
+        print("#")
+        for i in range(20):
+            rows = random.sample(d.rows, 10)
+            rows.sort(key=lambda x: x.d2h(d))
+            print("any50\t", rows[0].cells, "\t", util.rnd(rows[0].d2h(d)))
+
+        # Evaluate all data to find the best
+        print("#")
+        rows = d.rows.copy() # create a shallow copy of the array (to sort)
+        rows.sort(key=lambda x: x.d2h(d))
+        print("100%\t", rows[0].cells, "\t", util.rnd(rows[0].d2h(d)))
+
+    def print_ranking_analysis(self, d):
+        today = date.today()
+        todays_date = today.strftime("%B %d, %Y")
+        print(f"date : {todays_date}")  # print current date
+        print(f"file : {the.file}")  # print file name
+        print(f"repeats : 20")  # print the number of repetitions(num of times we run bonr15
+        # when building our sampling group for example)
+        print(f"seed : {the.seed}")
+        print(f"rows : {len(d.rows)}")
+        print(f"cols : {len(d.cols.all)}")
+
+    def get_best_bonr(self, num, fileDIR):
+        d = DATA(fileDIR)
+        _stats, _bests = d.gate(4, num -4, .5, False) # bonr9 if num = 9, bonr15 if num = 15 etc.
+        # I also added a parameter above so that we don't have to always print all the baselines
+        # when running gate
+        stat, best = _stats[-1], _bests[-1]
+        #print(best.d2h(d))
+        #print(_bests[0].d2h(d))
+        assert best.d2h(d) <= _bests[0].d2h(d)  # Tests that we are getting the best value based on d2h
+        # and not some other value by accident
+        return util.rnd(best.d2h(d))
+
+    def get_best_rand(self, num, fileDIR):
+        d = DATA(fileDIR)
+        rows = random.sample(d.rows, num)  # sample N number of random rows
+        rows.sort(key=lambda x: x.d2h(d))  # sort the rows by d2h and pull out the best value
+        return util.rnd(rows[0].d2h(d))  # return the d2h of the best row
+
+    def get_base_line_list(self, rows,d):
+        d2h_list = []
+        for row in rows:
+            d2h_list.append(row.d2h(d))
+        return d2h_list
+
+    def week8task2(self):
+        # load dataset
+        absolute_path = util.getAbspath("data/auto93.csv")
+
+        d = DATA(absolute_path)  # just set d for easy use in print statements
+        self.print_ranking_analysis(d)
+        all_rows = d.rows
+
+        # Now we must sort all rows based on the distance to heaven to get our ceiling
+        all_rows.sort(key=lambda x: x.d2h(d))
+        ceiling = util.rnd(all_rows[0].d2h(d))  # set ceiling value to best value
+        bonr9_best_list = []  # the list of 20 best bonr9 value
+        rand9_best_list = []  # the list of 20 best rand9 value
+        bonr15_best_list = []
+        rand15_best_list = []
+        bonr20_best_list = []
+        rand20_best_list = []
+        rand358_best_list = []
+
+        for i in range(20):
+            # iterate our 20 times
+            bonr9_best_list.append(self.get_best_bonr(9, absolute_path))  # calls to a function that runs data for bonr9
+            # and returns the best value once
+            rand9_best_list.append(self.get_best_rand(9, absolute_path))  # calls to function which randomly samples
+            # 9 rows from the data set and returns the best rows d2h
+            bonr15_best_list.append(self.get_best_bonr(15, absolute_path))
+            rand15_best_list.append(self.get_best_rand(15, absolute_path))
+            bonr20_best_list.append(self.get_best_bonr(20, absolute_path))
+            rand20_best_list.append(self.get_best_rand(20, absolute_path))
+            rand358_best_list.append(self.get_best_rand(358, absolute_path))
+
+        base_line_list = self.get_base_line_list(d.rows, d)  # returns a list of all rows d2h values
+        std = stdev(base_line_list)  # standard deviation of all rows d2h values  
+        print(f"best : {ceiling}")  #  
+        print(f"tiny : {util.rnd(.35*std)}")  # WE NEED to change this later...
+
+        print("#base #bonr9 #rand9 #bonr15 #rand15 #bonr20 #rand20 #rand358")
+        print("report8 ")
+        # Below is the code that will actually stratify and print the different treatments
+        Sample.eg0([
+            Sample.SAMPLE(bonr9_best_list, "bonr9"),
+            Sample.SAMPLE(rand9_best_list, "rand9"),
+            Sample.SAMPLE(bonr15_best_list, "bonr15"),
+            Sample.SAMPLE(rand15_best_list, "rand15"),
+            Sample.SAMPLE(bonr20_best_list, "bonr20"),
+            Sample.SAMPLE(rand20_best_list, "rand20"),
+            Sample.SAMPLE(rand358_best_list, "rand358"),
+            Sample.SAMPLE(base_line_list, "base"),
+        ])
 
     def week7task1(self):
         # load dataset
