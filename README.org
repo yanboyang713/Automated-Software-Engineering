@@ -161,7 +161,6 @@ https://github.com/txt/aa24/blob/main/docs/hw06.md
 ** Task 2
 #+begin_src bash
   python3 ./src/gate.py -t week8task2
-  python gate.py -t smo_ranking_stats
 #+end_src
 
 * Pre-commit
