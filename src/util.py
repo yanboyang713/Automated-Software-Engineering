@@ -82,6 +82,27 @@ def getAbspath(path):
     #print (absolute_path)
     return related_dir
 
+def entropy(t):
+    n, e = 0, 0
+    for _, v in t.items():
+        n += v 
+    for _, v in t.items():
+        e = e-v/n * math.log(v/n, 2)
+    return e, n
+
+def score(t, goal, LIKE, HATE):
+    like, hate, tiny = 0, 0, 1E-30
+    for klass, n in t.items():
+        if klass == goal:
+            like += n
+        else:
+            hate += n 
+    like, hate = like / (LIKE + tiny), hate / (HATE + tiny)
+    if hate > like :
+        return 0
+    else:
+        return like ** 2 / (like + hate)
+
 # handle dictionary items as object attributes
 class SLOTS(dict): 
   __getattr__ = dict.get; __setattr__ = dict.__setitem__; __repr__ = o

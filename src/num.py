@@ -2,6 +2,7 @@
 Student Name: Boyang Yan
 Student Number: 200495053
 """
+import math
 
 class NUM:
     def __init__(self, s=" ", n=0):
@@ -57,3 +58,7 @@ class NUM:
         if y == "?":
             y = 1 if x < 0.5 else 0
         return abs(x-y)
+
+    def bin(self, x):
+        tmp = (self.hi - self.lo)/(16-1)
+        return 1 if self.hi == self.lo else int(math.floor(x/tmp + .5)*tmp)

@@ -1,0 +1,35 @@
+OUTPUT1:
+
+{at:0 scored:0 txt:Clndrs x:{'lo': -inf, 'hi': 5} y:{'LIKE': 22, 'HATE': 28}}
+{at:0 scored:0 txt:Clndrs x:{'lo': 5, 'hi': 6} y:{'LIKE': 2, 'HATE': 21}}
+{at:0 scored:0 txt:Clndrs x:{'lo': 6, 'hi': inf} y:{'HATE': 23}}
+
+{at:1 scored:0 txt:Volume x:{'lo': -inf, 'hi': 76} y:{'LIKE': 7, 'HATE': 3}}
+{at:1 scored:0 txt:Volume x:{'lo': 76, 'hi': 91} y:{'LIKE': 7, 'HATE': 10}}
+{at:1 scored:0 txt:Volume x:{'lo': 91, 'hi': 200} y:{'LIKE': 10, 'HATE': 19}}
+{at:1 scored:0 txt:Volume x:{'lo': 200, 'hi': inf} y:{'HATE': 40}}
+
+{at:3 scored:0 txt:Model x:{'lo': -inf, 'hi': 76} y:{'HATE': 48}}
+{at:3 scored:0 txt:Model x:{'lo': 76, 'hi': 78} y:{'LIKE': 5, 'HATE': 8}}
+{at:3 scored:0 txt:Model x:{'lo': 78, 'hi': 79} y:{'LIKE': 4, 'HATE': 3}}
+{at:3 scored:0 txt:Model x:{'lo': 79, 'hi': 80} y:{'LIKE': 13, 'HATE': 7}}
+{at:3 scored:0 txt:Model x:{'lo': 80, 'hi': inf} y:{'LIKE': 2, 'HATE': 6}}
+
+{at:4 scored:0 txt:origin x:{'lo': 1, 'hi': 1} y:{'HATE': 51}}
+{at:4 scored:0 txt:origin x:{'lo': 2, 'hi': 2} y:{'LIKE': 24, 'HATE': 5}}
+{at:4 scored:0 txt:origin x:{'lo': 3, 'hi': 3} y:{'HATE': 16}}
+
+
+OUTPUT2:
+
+#scores:
+
+0.94 {at:4 scored:0 txt:origin x:{'lo': 2, 'hi': 2} y:{'LIKE': 24, 'HATE': 5}}
+0.64 {at:0 scored:0 txt:Clndrs x:{'lo': -inf, 'hi': 5} y:{'LIKE': 22, 'HATE': 28}}
+0.46 {at:3 scored:0 txt:Model x:{'lo': 79, 'hi': 80} y:{'LIKE': 13, 'HATE': 7}}
+0.26 {at:1 scored:0 txt:Volume x:{'lo': -inf, 'hi': 76} y:{'LIKE': 7, 'HATE': 3}}
+0.26 {at:1 scored:0 txt:Volume x:{'lo': 91, 'hi': 200} y:{'LIKE': 10, 'HATE': 19}}
+0.2 {at:1 scored:0 txt:Volume x:{'lo': 76, 'hi': 91} y:{'LIKE': 7, 'HATE': 10}}
+0.14 {at:3 scored:0 txt:Model x:{'lo': 76, 'hi': 78} y:{'LIKE': 5, 'HATE': 8}}
+0.13 {at:3 scored:0 txt:Model x:{'lo': 78, 'hi': 79} y:{'LIKE': 4, 'HATE': 3}}
+{'LIKE': 24, 'HATE': 72}

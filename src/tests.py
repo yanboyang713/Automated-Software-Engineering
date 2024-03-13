@@ -11,6 +11,7 @@ from datetime import date, datetime
 import random
 from statistics import mean, stdev
 import Sample
+from Range import _ranges1
 
 class TEST:
     def __init__(self):
@@ -41,6 +42,9 @@ class TEST:
             self.week8task1()
         elif (todo == "week8task2"):
             self.week8task2()
+        elif (todo == "week9"):
+            self.week9()
+
 
         #else:
             #print ("else")
@@ -51,6 +55,35 @@ class TEST:
             #self.week4()
             #self.week5Dis()
             #self.week7task1()
+
+    def week9(self):
+        # load dataset
+        absolute_path = util.getAbspath("data/auto93.csv")
+
+        d = DATA(absolute_path)
+        best, rest, evals = d.branch()
+        assert best.rows[0].d2h(d) < rest.rows[0].d2h(d)
+        LIKE = best.rows
+        HATE = random.sample(rest.rows, 3*len(LIKE))
+        rowss = {"LIKE": LIKE, "HATE": HATE}
+        assert len(LIKE) < len(HATE)
+        def score(range):
+            return range.score("LIKE", len(LIKE), len(HATE))
+        t = []
+        print("OUTPUT1:")
+        for col in d.cols.x:
+            print("")
+            for range in _ranges1(col, rowss):
+                print(util.o(range))
+                t.append(range)
+        t = sorted(t, key=lambda range_x: score(range_x), reverse=True)
+        max = score(t[0])
+        print("\n\nOUTPUT2:")
+        print("\n#scores:\n")
+        for range in t[0:the.Beam]:
+            if score(range) > max * .1:
+                print(util.rnd(score(range)), util.o(range))
+        print({"LIKE": len(LIKE), "HATE": len(HATE)})
 
     def week8task1(self):
         print("Date:", datetime.now())

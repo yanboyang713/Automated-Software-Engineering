@@ -163,6 +163,12 @@ https://github.com/txt/aa24/blob/main/docs/hw06.md
   python3 ./src/gate.py -t week8task2
 #+end_src
 
+* Week9
+https://github.com/txt/aa24/blob/main/docs/hw07.md
+#+begin_src bash
+  python3 ./src/gate.py -t week9
+#+end_src
+
 * Pre-commit
 ** install
 #+begin_src bash
